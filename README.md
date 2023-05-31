@@ -1,2 +1,2 @@
 # Awesome-Multitask-Learning
-This repository periodicly updates the MTL paper and resources
+This repository periodicly updates the the papers and resources in MTL.
