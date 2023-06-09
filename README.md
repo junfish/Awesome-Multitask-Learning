@@ -1,7 +1,7 @@
 # Awesome-Multitask-Learning
 <!-- This repository periodicly updates the the papers and resources of MTL. -->
-Our survey mainly convey a general idea of MTL, including the definition, taxonomy, and the applications of MTL. We detaily introduce the MTL methods in different aspects, such as the loss function, the network architecture, and the optimization method. We provide the code and the link of the paper for each method. We also provide the code of the MTL methods in the paper. We hope this survey can help you to understand the MTL and the MTL methods. If you have any questions, please contact us.
-> [**Unleashing the Power of Multi-Task Learning: A Comprehensive Survey Spanning Traditional, Deep, and Pre-Trained Foundation Model Eras **](https://arxiv.org/abs/2004.13379)
+Our survey primarily aims to provide a comprehensive understanding of MTL, encompassing its definition, taxonomy, applications, and their connections and trends. We delve into the various aspects of MTL methods, including the loss function, network architecture, and optimization methods, offering explanations and insights from the perspective of technical details. For each method, we provide the corresponding paper link, as well as the code repository for the MTL methods discussed in the paper. We sincerely hope that this survey aids in your comprehension of MTL and its associated methods. If you have any questions or suggestions, please feel free to contact us.
+> [**Unleashing the Power of Multi-Task Learning: A Comprehensive Survey Spanning Traditional, Deep, and Pre-Trained Foundation Model Eras **](https://junfish.github.io/)
 
 
 ## Table of Contents:
@@ -114,3 +114,4 @@ This dataset is a synthetic dataset created to address the need for a large and 
 
 <a name = "dense-prediction-task"></a>
 ### Dense prediction task
+
