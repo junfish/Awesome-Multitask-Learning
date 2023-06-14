@@ -27,7 +27,7 @@ Our survey primarily aims to provide a comprehensive understanding of MTL, encom
 T-PAMI, 2020. [[PyTorch](https://github.com/SimonVandenhende/Multi-Task-Learning-PyTorch)] -->
 - **An overview of multi-task learning in deep neural networks** \
 *Sebastian Ruder* \
-arXiv 2017. [[Paper](https://arxiv.org/abs/1706.05098)] 
+arXiv 2017. [[Paper](https://arxiv.org/abs/1706.05098)] \
 Jun 15, 2017
 
 - **A brief review on multi-task learning** \
