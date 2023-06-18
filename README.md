@@ -35,12 +35,12 @@ Jun 15, 2017
 
 - **A brief review on multi-task learning** \
 *Kim-Han Thung, Chong-Yaw Wee* \
-Multimedia Tools and Applications 2018. [[Paper](https://link.springer.com/article/10.1007/s11042-018-6463-x)] 
+Multimedia Tools and Applications 2018. [[Paper](https://link.springer.com/article/10.1007/s11042-018-6463-x)] \
 Aug 08, 2018
 
 - **Multi-task learning for dense prediction tasks: A survey** \
 *Simon Vandenhende, Stamatios Georgoulis, Marc Proesmans, Dengxin Dai and Luc Van Gool* \
-IEEE Transactions on Pattern Analysis and Machine Intelligence 2021. [[Paper](https://ieeexplore.ieee.org/abstract/document/9336293)]
+IEEE Transactions on Pattern Analysis and Machine Intelligence 2021. [[Paper](https://ieeexplore.ieee.org/abstract/document/9336293)] \
 Jan 26, 2021
 - **A Brief Review of Deep Multi-task Learning and Auxiliary Task Learning** \
 *Partoo Vafaeikia and Khashayar Namdar and Farzad Khalvati* \
@@ -48,7 +48,7 @@ arXiv 2020. [[Paper](https://arxiv.org/abs/2007.01126)] \
 Jul 02, 2020
 - **Multi-Task Learning with Deep Neural Networks: A Survey** 
 *Michael Crawshaw* \
-arXiv 2020. [[Paper](https://arxiv.org/abs/2009.09796)] 
+arXiv 2020. [[Paper](https://arxiv.org/abs/2009.09796)] \
 Sep 10, 2020
 - **A survey on multi-task learning** \
 *Yu Zhang and Qiang Yang*
