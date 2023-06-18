@@ -12,6 +12,9 @@ Our survey primarily aims to provide a comprehensive understanding of MTL, encom
     - [Regression task](#regression-task)
     - [Classification task](#classification-task)
     - [Dense prediction task](#dense-prediction-task)
+  - [Methods](#methods)
+    - [Traditional era](#traditional-era)
+      - [Sparse Learning](#sparse-learning)
 <!-- - [Architectures](#architectures)
   - [Encoder-based](#encoder)
   - [Decoder-based](#decoder)
@@ -48,7 +51,7 @@ Jul 02, 2020
 arXiv 2020. [[Paper](https://arxiv.org/abs/2009.09796)] 
 Sep 10, 2020
 - **A survey on multi-task learning** \
-*Zhang, Yu and Yang, Qiang*
+*Yu Zhang and Qiang Yang*
 IEEE Transactions on Knowledge and Data Engineering 2022. [[Paper]](https://ieeexplore.ieee.org/abstract/document/9392366) \
 March 31, 2021
 <!-- - <a name = "ruder2017overview"></a> S. Ruder, “*[An overview of multi-task learning in deep neural networks](https://arxiv.org/abs/1706.05098),” arXiv preprint arXiv:1706.05098, 2017. -->
@@ -115,12 +118,71 @@ This dataset is a synthetic dataset created to address the need for a large and 
 <a name = "dense-prediction-task"></a>
 ### Dense prediction task
 
+- [CityScapes](https://www.cityscapes-dataset.com/)
+This dataset consists of 5,000 images with high quality annotations
+and 20,000 images with coarse annotations from 50 different cities, which contains 19 classes for semantic urban scene understanding. 
+
+- [NYU-Depth Dataset V2](https://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html)
+This dataset is comprised of 1,449 images from 464 indoor scenes across 3 cities, which contains 35,064 distinct objects of 894 different classes. The dense per-pixel labels of class, instance, and depth are used in many computer vision tasks, e.g., semantic segmentation, depth prediction, and surface normal estimation.
+
+- [PASCAL VOC Project](http://host.robots.ox.ac.uk/pascal/VOC/)
+This project provides standardized image datasets for object class recognition and also has run challenges evaluating performance on object class recognition from 2005 to 2012, where [VOC07](http://host.robots.ox.ac.uk/pascal/VOC/voc2007/index.html), [VOC08](http://host.robots.ox.ac.uk/pascal/VOC/voc2008/index.html), and [VOC12](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/index.html) are commonly used for MTL research. The multiple tasks covers classification, detection (e.g., body part, saliency, semantic edge), segmentation, attribute prediction, surface normals prediction, etc. 
+
+- [Taskonomy](https://github.com/StanfordVL/taskonomy/tree/master/data#downloading-the-dataset-new-oct-2021)
+This dataset is currently the most diverse product for computer vision in
+MTL, consisting of 4 million samples from 3D scans of ∼ 600 buildings. This product is a dictionary of 26 tasks (e.g., 2D, 2.5D, 3D, semantics, etc.) as a computational taxonomic map for task transfer learning. 
+
+<a name = "methods"></a>
+## Methods
+
+<a name ="traditional-era"></a>
+### Traditional era
+
+<a name = "sparse-learning"></a>
+#### Sparse Learning
+
+- **Multi-Task Feature Selection** \
+*Guillaume Obozinski, Ben Taskar and Michael Jordan* \
+researchgate 2006. [[Paper](https://www.researchgate.net/profile/Guillaume-Obozinski/publication/228666354_Multi-task_feature_selection/links/0a85e53b2c728afb52000000/Multi-task-feature-selection.pdf)]   
+
+- **A probabilistic framework for multi-task learning** \
+*Jian Zhang* \
+Theis 2006. [[Paper](https://cse.sustech.edu.cn/faculty/~zhangy/papers/Yu_Zhang_PhD_Thesis.pdf)] 
+
+- **Dirty Block-Sparse Model** \
+*Ali Jalali, Sujay Sanghavi, Chao Ruan and Pradeep Ravikumar* \
+Advances in neural information processing systems 2010. [[Paper](https://proceedings.neurips.cc/paper/2010/hash/00e26af6ac3b1c1c49d7c3d79c60d000-Abstract.html)] 
+
+- **Sparse Multi-Task Lasso** \
+*Aurelie C Lozano and Grzegorz Swirszcz* \
+Proceedings of the 29th International Coference on International Conference on Machine Learning 2012. [[Paper](https://dl.acm.org/doi/abs/10.5555/3042573.3042652)]
+
+- **Adaptive Sparse Multi-Task Lasso** \
+*Seunghak Lee, Jun Zhu and Eric Xing* \
+Advances in neural information processing systems 2010. [[Paper](https://proceedings.neurips.cc/paper/2010/hash/3cf166c6b73f030b4f67eeaeba301103-Abstract.html)]
+
+- **A multi-task learning formulation for predicting disease progression** \
+*Jiayu Zhou, Lei Yuan, Jun Liu and Jieping Ye* \
+Proceedings of the 17th ACM SIGKDD international conference on Knowledge discovery and data mining 2011. [[Paper](https://dl.acm.org/doi/abs/10.1145/2020408.2020549)]
+
+- **Modeling disease progression via fused sparse group lasso** \
+*Jiayu Zhou, Jun Liu, Vaibhav A Narayan and Jieping Ye* \
+Proceedings of the 18th ACM SIGKDD international conference on Knowledge discovery and data mining 2012. [[Paper](https://dl.acm.org/doi/abs/10.1145/2339530.2339702?casa_token=19FLLXrMooMAAAAA:cV8xhbjZigE8Nh89yeBCsAz3Bpzp9gs4vAeUpWTvy-N52l_iOXpL-MJ3JO13zDiVmqkrr-4aMQup)]
 
 
 
 
 
 
+
+<!-- <a name="architectures"></a>
+## Architectures
+
+<a name="encoder-based"></a>
+### Encoder-based
+
+<a name = "decoder-based"></a>
+### Decoder-based -->
 
 
 <!-- DO NOT DELETE THIS LINE -->
