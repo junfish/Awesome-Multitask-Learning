@@ -15,6 +15,14 @@ Our survey primarily aims to provide a comprehensive understanding of MTL, encom
   - [Methods](#methods)
     - [Traditional era](#traditional-era)
       - [Sparse Learning](#sparse-learning)
+      - [Feature Learning](#feature-learning)
+      - [Low-rank Learning](#low-rank-learning)
+      - [Learning via Decomposition](#learning-via-decomposition)
+      - [Learning via Factorization](#learning-via-factorization)
+      - [Task Relationship Learning](#task-relationship-learning)
+      - [Task Clustering](#task-clustering)
+    - [Deep Learning Era](#deep-learning-era)
+      - [Feature Fusion](#feature-fusion)
 <!-- - [Architectures](#architectures)
   - [Encoder-based](#encoder)
   - [Decoder-based](#decoder)
@@ -33,9 +41,9 @@ T-PAMI, 2020. [[PyTorch](https://github.com/SimonVandenhende/Multi-Task-Learning
 arXiv 2017. [[Paper](https://arxiv.org/abs/1706.05098)] \
 Jun 15, 2017
 
-- **A brief review on multi-task learning** \
+- **A brief review on multi-task learning** [[Paper](https://link.springer.com/article/10.1007/s11042-018-6463-x)] \
 *Kim-Han Thung, Chong-Yaw Wee* \
-Multimedia Tools and Applications 2018. [[Paper](https://link.springer.com/article/10.1007/s11042-018-6463-x)] \
+Multimedia Tools and Applications 2018. \
 Aug 08, 2018
 
 - **Multi-task learning for dense prediction tasks: A survey** \
@@ -46,7 +54,7 @@ Jan 26, 2021
 *Partoo Vafaeikia and Khashayar Namdar and Farzad Khalvati* \
 arXiv 2020. [[Paper](https://arxiv.org/abs/2007.01126)] \
 Jul 02, 2020
-- **Multi-Task Learning with Deep Neural Networks: A Survey** 
+- **Multi-Task Learning with Deep Neural Networks: A Survey** \
 *Michael Crawshaw* \
 arXiv 2020. [[Paper](https://arxiv.org/abs/2009.09796)] \
 Sep 10, 2020
@@ -147,7 +155,7 @@ researchgate 2006. [[Paper](https://www.researchgate.net/profile/Guillaume-Obozi
 
 - **A probabilistic framework for multi-task learning** \
 *Jian Zhang* \
-Theis 2006. [[Paper](https://cse.sustech.edu.cn/faculty/~zhangy/papers/Yu_Zhang_PhD_Thesis.pdf)] 
+Ph.D. Thesis 2006. [[Paper](https://cse.sustech.edu.cn/faculty/~zhangy/papers/Yu_Zhang_PhD_Thesis.pdf)] 
 
 - **Dirty Block-Sparse Model** \
 *Ali Jalali, Sujay Sanghavi, Chao Ruan and Pradeep Ravikumar* \
@@ -170,19 +178,117 @@ Proceedings of the 17th ACM SIGKDD international conference on Knowledge discove
 Proceedings of the 18th ACM SIGKDD international conference on Knowledge discovery and data mining 2012. [[Paper](https://dl.acm.org/doi/abs/10.1145/2339530.2339702?casa_token=19FLLXrMooMAAAAA:cV8xhbjZigE8Nh89yeBCsAz3Bpzp9gs4vAeUpWTvy-N52l_iOXpL-MJ3JO13zDiVmqkrr-4aMQup)]
 
 
+- **Adaptive multi-task sparse learning with an application to fMRI study** [[Paper](https://epubs.siam.org/doi/abs/10.1137/1.9781611972825.19)] \
+*Xi Chen, Jinghui He, Rick Lawrence and Jaime G Carbonell* \
+Proceedings of the 2012 SIAM International Conference on Data Mining 2012. 
+
+- **Multi-stage multi-task feature learning** [[Paper](https://proceedings.neurips.cc/paper/2012/hash/2ab56412b1163ee131e1246da0955bd1-Abstract.html)] \
+*Pinghua Gong, Jieping Ye and Changshui Zhang* \
+Advances in neural information processing systems 2012. 
 
 
+<a name = "feature-learning"></a>
+#### Feature Learning
+- **A framework for learning predictive structures from multiple tasks and
+unlabeled data** [[Paper](https://www.jmlr.org/papers/volume6/ando05a/ando05a.pdf)] \
+*Rie Kubota Ando, Tong Zhang and Peter Bartlett* \
+Journal of Machine Learning Research 2005. 
+
+
+
+- **A convex formulation for learning shared structures from multiple tasks** [[Paper](https://dl.acm.org/doi/abs/10.1145/1553374.1553392?casa_token=l-kQ9i88wJAAAAAA:K6TvNZGzne_TONBUpUNuYLRtY0QnPpF3GhKtiexV9EUtqOfOBEpQXI_5JlJuyi3_3apLj7pTVJhQ)] \
+*Jianhui Chen, Lei Tang, Jun Liu and Jieping Ye* \
+Proceedings of the 26th annual international conference on machine learning 2009. 
+
+- **Multi-task feature learning** [[Paper](https://proceedings.neurips.cc/paper_files/paper/2006/hash/0afa92fc0f8a9cf051bf2961b06ac56b-Abstract.html)] \
+*Andreas Argyriou, Theodoros Evgeniou and Massimiliano Pontil* \
+Advances in neural information processing systems 2006. 
+
+
+- **Multi-task learning for multiple language translation** [[Paper](https://aclanthology.org/P15-1166.pdf)] \
+*Daxiang Dong, Hua Wu, Wei He, Dianhai Yu and Haifeng Wang* \
+Proceedings of the 53rd Annual Meeting of the Association for Computational Linguistics and the 7th International Joint Conference on Natural Language Processing 2015. 
+
+
+<a  name = "low-rang-learning"></a>
+#### Low-rank Learning
+
+- **An accelerated gradient method for trace norm minimization** [[Paper](https://dl.acm.org/doi/abs/10.1145/1553374.1553434?casa_token=9J7YNGdK0jEAAAAA:enMIpGXqhGpAPKlYswpPOyLqlztQx9OwdTHnKGXV5L0HRvx0Wz2UjJY3cP73VTU84PqG7R6k-dJu)] \
+*Shuiwang Ji and Jieping Ye* \
+Proceedings of the 26th annual international conference on machine learning 2009. 
+
+
+- **Multi-stage multi-task learning with reduced rank** [[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/10261)] \
+*Lei Han and Yu Zhang* \
+Proceedings of the AAAI Conference on Artificial Intelligence 2016. 
+
+<a name = "learing-via-decomposition"></a>
+#### Learning via Decomposition
+
+- **Integrating low-rank and group-sparse structures for robust multi-task learning** [[Paper](https://dl.acm.org/doi/abs/10.1145/2020408.2020423?casa_token=ztgYGGR1stsAAAAA:awKc_tKgcDBo6oL8s7kwngbfIqMi_O5gePUIUQiZUtaBNvgmCU670NbfPdO487XFCUoJOGH_wsAb)] \
+*Jianhui Chen, Jiayu Zhou and Jieping Ye* \
+Proceedings of the 17th ACM SIGKDD international conference on Knowledge discovery and data mining 2011. 
+
+- **Learning incoherent sparse and low-rank patterns from multiple tasks** [[Paper](https://dl.acm.org/doi/abs/10.1145/2086737.2086742?casa_token=bqKYlMtacY4AAAAA:M3s9srPyiaWN8bMbbTUQY29nn1ezG1zhXqC-I67l4-IqyHuo60h86ucD4y_NDYbWVV68pK1XJCcT)] \
+*Jianhui Chen, Ji Liu and Jieping Ye* \
+ACM Transactions on Knowledge Discovery from Data 2012. 
+
+- **Multi-level lasso for sparse multi-task regression** [[Paper](https://dl.acm.org/doi/abs/10.5555/3042573.3042652)] \
+*Aurelie C Lozano and Grzegorz Swirszcz* \
+Proceedings of the 29th International Coference on International Conference on Machine Learning 2012. 
+
+- **Robust multi-task feature learning** [[Paper](https://dl.acm.org/doi/abs/10.1145/2339530.2339672?casa_token=eakEuKmTUtEAAAAA:xeumdsvJ0ojB-uWcRnMUjscW-G4ry1fqlEveVLvlt5rnV5M1ZgxJxc1N0h3unKi9_JJrgK4kF4rq)] \
+*Pinghua Gong, Jieping Ye and Changshui Zhang* \
+Proceedings of the 18th ACM SIGKDD international conference on Knowledge discovery and data mining 2012. 
+
+
+<a name = "learning-via-factorization"></a>
+#### Learning via Factorization
+
+<a name = "task-relationship-learning"></a>
+#### Task Relationship Learning
+
+<a name = "task-clustering"></a>
+#### Task Clustering
+
+<a name = "deeplearning-era"></a>
+### Deep Learning Era
+
+<a name = "feature-fusion"></a>
+#### Feature Fusion
+
+
+
+
+<table style="width:100%">
+  <tr>
+    <th style="width:50%">Paper</th>
+    <th style="width:50%">Network</th>
+  </tr>
+  <tr>
+    <td style="width:50%">
+      <b>Cross-stitch networks for multi-task learning</b> <a href="https://openaccess.thecvf.com/content_cvpr_2016/html/Misra_Cross-Stitch_Networks_for_CVPR_2016_paper.html"><i>[Paper]</i></a> 
+      <a href = "https://github.com/helloyide/Cross-stitch-Networks-for-Multi-task-Learning"><i>[Code]</i></a><br>
+      <b>Authors:</b> Ishan Misra, Abhinav Shrivastava, Abhinav Gupta and Martial Hebert<br>
+      <b>Publisher:</b> CVPR <br>
+      <b>Year:</b> 2016 <br>
+    </td>
+    <td style="width:50%">
+      <img src="/img/cross_stitch_unit.png" alt="Description of image" style="max-width:100%">
+    </td>
+  </tr>
+</table>
 
 
 
 <!-- <a name="architectures"></a>
 ## Architectures
 
-<a name="encoder-based"></a>
+<!-- <a name="encoder-based"></a>
 ### Encoder-based
 
 <a name = "decoder-based"></a>
-### Decoder-based -->
+### Decoder-based --> -->
 
 
 <!-- DO NOT DELETE THIS LINE -->
