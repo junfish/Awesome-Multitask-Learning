@@ -23,6 +23,7 @@ Our survey primarily aims to provide a comprehensive understanding of MTL, encom
       - [Task Clustering](#task-clustering)
     - [Deep Learning Era](#deep-learning-era)
       - [Feature Fusion](#feature-fusion)
+      - [Knowledge Distillation](#knowledge-distillation)
 <!-- - [Architectures](#architectures)
   - [Encoder-based](#encoder)
   - [Decoder-based](#decoder)
@@ -274,11 +275,106 @@ Proceedings of the 18th ACM SIGKDD international conference on Knowledge discove
       <b>Year:</b> 2016 <br>
     </td>
     <td style="width:50%">
-      <img src="/img/cross_stitch_unit.png" alt="Description of image" style="max-width:100%">
+      <img src="img/cross_stitch_unit.png" alt="Description of image" style="max-width:100%">
     </td>
+    
+  </tr>
+  <tr>
+    <td style="width:50%">
+      <b>Latent multi-task architecture learning</b> <a href="https://ojs.aaai.org/index.php/AAAI/article/view/4410"><i>[Paper]</i></a> 
+      <br>
+      <b>Authors:</b> Sebastian Ruder, Joachim Bingel, Isabelle Augenstein and Anders Sogaard<br>
+      <b>Publisher:</b> Proceedings of the AAAI Conference on Artificial Intelligence <br>
+      <b>Year:</b> 2019 <br>
+    </td>
+    <td style="width:50%">
+      <img src="img/sluice_block.png" alt="Description of image" style="max-width:100%">
+    </td> 
+  </tr>
+
+  </tr>
+  <tr>
+    <td style="width:50%">
+      <b>Nddr-cnn: Layerwise feature fusing in multi-task cnns by neural discriminative dimensionality reduction</b> <a href="https://scholar.google.com/scholar?hl=en&as_sdt=0%2C39&q=%E2%80%9CNddr-cnn%3A+Layerwise+feature+fusing+in+multi-task+cnns+by+neural+discriminative+dimensionality+reduction%2C&btnG="><i>[Paper]</i></a> 
+      <a href = "https://github.com/ethanygao/NDDR-CNN"><i>[Code]</i></a>
+      <br>
+      <b>Authors:</b> Yuan Gao, Jiayi Ma, Mingbo Zhao , Wei Liu and Alan L Yuille<br>
+      <b>Publisher:</b> Proceedings of the IEEE/CVF conference on computer vision and pattern recognition <br>
+      <b>Year:</b> 2019 <br>
+    </td>
+    <td style="width:50%">
+      <img src="img/nddr_unit.png" alt="Description of image" style="max-width:100%">
+    </td> 
   </tr>
 </table>
 
+<a name = "knowledge-distillation"></a>
+#### Knowledge Distillation
+<table style="width:100%">
+  <tr>
+    <th style="width:50%">Paper</th>
+    <th style="width:50%">Network</th>
+  </tr>
+  <tr>
+    <td style="width:50%">
+      <b>Knowledge distillation for multi-task learning</b> <a href="https://link.springer.com/chapter/10.1007/978-3-030-65414-6_13"><i>[Paper]</i></a> 
+      <a href = "https://github.com/VICO-UoE/KD4MTL"><i>[Code]</i></a><br>
+      <b>Authors:</b> WeiHong Li and Hakan Bilen<br>
+      <b>Publisher:</b> Computer Vision--ECCV <br>
+      <b>Year:</b> 2020 <br>
+    </td>
+    <td style="width:50%">
+      <img src="img/kd4mtl_pipeline.png" alt="Description of image" style="max-width:100%">
+    </td>
+    
+  </tr>
+  <tr>
+    <th style="width:50%">Paper</th>
+    <th style="width:50%">Network</th>
+  </tr>
+  <tr>
+    <td style="width:50%">
+      <b>Multi-task self-training for learning general representations</b> <a href="https://openaccess.thecvf.com/content/ICCV2021/html/Ghiasi_Multi-Task_Self-Training_for_Learning_General_Representations_ICCV_2021_paper.html"><i>[Paper]</i></a> 
+      <!-- <a href = "https://github.com/VICO-UoE/KD4MTL"><i>[Code]</i></a> -->
+      <br>
+      <b>Authors:</b> Golnaz Ghiasi, Barret Zoph, Ekin D Cubuk and Quoc V Le and Tsung-Yi Lin<br>
+      <b>Publisher:</b> Proceedings of the IEEE/CVF International Conference on Computer Vision <br>
+      <b>Year:</b> 2021 <br>
+    </td>
+    <td style="width:50%">
+      <img src="img/must_pipeline.png" alt="Description of image" style="max-width:100%">
+    </td>
+    
+  </tr>
+  <tr>
+    <td style="width:50%">
+      <b>Cross-task knowledge distillation in multi-task recommendation</b> <a href="https://ojs.aaai.org/index.php/AAAI/article/view/20352"><i>[Paper]</i></a> 
+      <!-- <a href = "https://github.com/VICO-UoE/KD4MTL"><i>[Code]</i></a> -->
+      <br>
+      <b>Authors:</b> Chenxiao Yang, Junwei Pan, Xiaofeng Gao, Tingyu Jiang, Dapeng Liu and Guihai Chen<br>
+      <b>Publisher:</b> Proceedings of the AAAI Conference on Artificial Intelligence <br>
+      <b>Year:</b> 2022 <br>
+    </td>
+    <!-- <td style="width:50%">
+      <img src="img/must_pipeline.png" alt="Description of image" style="max-width:100%">
+    </td> -->
+    
+  </tr>
+  <tr>
+    <td style="width:50%">
+      <b>Online Knowledge Distillation for Multi-Task Learning</b> <a href="https://openaccess.thecvf.com/content/WACV2023/html/Jacob_Online_Knowledge_Distillation_for_Multi-Task_Learning_WACV_2023_paper.html"><i>[Paper]</i></a> 
+      <!-- <a href = "https://github.com/VICO-UoE/KD4MTL"><i>[Code]</i></a> -->
+      <br>
+      <b>Authors:</b> Geethu Miriam Jacob and Vishal Agarwal<br>
+      <b>Publisher:</b> Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision <br>
+      <b>Year:</b> 2023 <br>
+    </td>
+    <td style="width:50%">
+      <img src="img/okd_mtl.png" alt="Description of image" style="max-width:100%">
+    </td>
+    
+  </tr>
+</table>
 
 
 <!-- <a name="architectures"></a>
