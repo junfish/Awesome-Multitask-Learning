@@ -24,6 +24,7 @@ Our survey primarily aims to provide a comprehensive understanding of MTL, encom
     - [Deep Learning Era](#deep-learning-era)
       - [Feature Fusion](#feature-fusion)
       - [Knowledge Distillation](#knowledge-distillation)
+      - [Cross-Task Attention](#cross-task-attention)
 <!-- - [Architectures](#architectures)
   - [Encoder-based](#encoder)
   - [Decoder-based](#decoder)
@@ -328,10 +329,7 @@ Proceedings of the 18th ACM SIGKDD international conference on Knowledge discove
     </td>
     
   </tr>
-  <tr>
-    <th style="width:50%">Paper</th>
-    <th style="width:50%">Network</th>
-  </tr>
+
   <tr>
     <td style="width:50%">
       <b>Multi-task self-training for learning general representations</b> <a href="https://openaccess.thecvf.com/content/ICCV2021/html/Ghiasi_Multi-Task_Self-Training_for_Learning_General_Representations_ICCV_2021_paper.html"><i>[Paper]</i></a> 
@@ -344,7 +342,6 @@ Proceedings of the 18th ACM SIGKDD international conference on Knowledge discove
     <td style="width:50%">
       <img src="img/must_pipeline.png" alt="Description of image" style="max-width:100%">
     </td>
-    
   </tr>
   <tr>
     <td style="width:50%">
@@ -376,6 +373,83 @@ Proceedings of the 18th ACM SIGKDD international conference on Knowledge discove
   </tr>
 </table>
 
+<a name = "cross_task_attention"></a>
+#### Cross-Task Attention
+
+<table style="width:100%">
+  <tr>
+    <th style="width:50%">Paper</th>
+    <th style="width:50%">Network</th>
+  </tr>
+  <tr>
+    <td style="width:50%">
+      <b>Pad-net: Multi-tasks guided prediction-and-distillation network for simultaneous depth estimation and scene parsing</b> <a href="https://openaccess.thecvf.com/content_cvpr_2018/html/Xu_PAD-Net_Multi-Tasks_Guided_CVPR_2018_paper.html"><i>[Paper]</i></a> 
+      <!-- <a href = "https://github.com/VICO-UoE/KD4MTL"><i>[Code]</i></a><br> -->
+      <br>
+      <b>Authors:</b> Dan Xu, Wanli Ouyang, Xiaogang Wang and Nicu Sebe<br>
+      <b>Publisher:</b> Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition <br>
+      <b>Year:</b> 2018 <br>
+    </td>
+    <td style="width:50%">
+      <img src="img/pad_module.png" alt="Description of image" style="max-width:100%">
+    </td>
+  </tr>
+  <tr>
+    <td style="width:50%">
+      <b>End-to-end multi-task learning with attention</b> <a href="https://openaccess.thecvf.com/content_CVPR_2019/html/Liu_End-To-End_Multi-Task_Learning_With_Attention_CVPR_2019_paper.html"><i>[Paper]</i></a> 
+      <a href = "https://github.com/lorenmt/mtan"><i>[Code]</i></a><br>
+      <b>Authors:</b> Shikun Liu, Edward Johns and Andrew J Davison<br>
+      <b>Publisher:</b> Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition <br>
+      <b>Year:</b> 2019 <br>
+    </td>
+    <!-- <td style="width:50%">
+      <img src="img/pad_module.png" alt="Description of image" style="max-width:100%">
+    </td> -->
+  </tr>
+  <tr>
+    <td style="width:50%">
+      <b>Pattern-affinitive propagation across depth, surface normal and semantic segmentation</b> <a href="https://openaccess.thecvf.com/content_CVPR_2019/html/Zhang_Pattern-Affinitive_Propagation_Across_Depth_Surface_Normal_and_Semantic_Segmentation_CVPR_2019_paper.html"><i>[Paper]</i></a> 
+      <!-- <a href = "https://github.com/lorenmt/mtan"><i>[Code]</i></a> -->
+      <br>
+      <b>Authors:</b> Zhenyu Zhang, Zhen Cui, Chunyan Xu, Yan Yan, Nicu Sebe and Jian Yang<br>
+      <b>Publisher:</b> Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition <br>
+      <b>Year:</b> 2019 <br>
+    </td>
+    <td style="width:50%">
+      <img src="img/pap_module.png" alt="Description of image" style="max-width:100%">
+    </td>
+    
+  </tr>
+  <tr>
+    <td style="width:50%">
+      <b>Pattern-structure diffusion for multi-task learning</b> <a href="https://openaccess.thecvf.com/content_CVPR_2020/html/Zhou_Pattern-Structure_Diffusion_for_Multi-Task_Learning_CVPR_2020_paper.html"><i>[Paper]</i></a> 
+      <!-- <a href = "https://github.com/lorenmt/mtan"><i>[Code]</i></a> -->
+      <br>
+      <b>Authors:</b> Ling Zhou, Zhen Cui, Chunyan Xu, Zhenyu Zhang, Chaoqun Wang, Tong Zhang and Jian Yang<br>
+      <b>Publisher:</b> Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition <br>
+      <b>Year:</b> 2020 <br>
+    </td>
+    <td style="width:50%">
+      <img src="img/psd_module.png" alt="Description of image" style="max-width:100%">
+    </td>
+    
+  </tr>
+  <tr>
+    <td style="width:50%">
+      <b>Mti-net: Multi-scale task interaction networks for multi-task
+learning</b> <a href="https://link.springer.com/chapter/10.1007/978-3-030-58548-8_31"><i>[Paper]</i></a> 
+      <a href = "https://github.com/SimonVandenhende/Multi-Task-Learning-PyTorch"><i>[Code]</i></a>
+      <br>
+      <b>Authors:</b> Simon Vandenhende, Stamatios Georgoulis and Luc Van Gool<br>
+      <b>Publisher:</b> Computer Vision--ECCV 2020: 16th European Conference, Glasgow, UK, August 23--28, 2020, Proceedings, Part IV 16 <br>
+      <b>Year:</b> 2020 <br>
+    </td>
+    <!-- <td style="width:50%">
+      <img src="img/psd_module.png" alt="Description of image" style="max-width:100%">
+    </td> -->
+    
+  </tr>
+</table>
 
 <!-- <a name="architectures"></a>
 ## Architectures
