@@ -25,6 +25,12 @@ Our survey primarily aims to provide a comprehensive understanding of MTL, encom
       - [Feature Fusion](#feature-fusion)
       - [Knowledge Distillation](#knowledge-distillation)
       - [Cross-Task Attention](#cross-task-attention)
+      - [Task Balancing](#task-balancing)
+      - [Task Conditioning](#task-conditioning)
+      - [Task Grouping](#task-grouping)
+      - [Task Scheduling](#task-scheduling)
+      - [Mixture of Experts](#mixture-of-experts)
+      - [Graph-based](#graph-based)
 <!-- - [Architectures](#architectures)
   - [Encoder-based](#encoder)
   - [Decoder-based](#decoder)
@@ -449,8 +455,124 @@ learning</b> <a href="https://link.springer.com/chapter/10.1007/978-3-030-58548-
     </td> -->
     
   </tr>
+  <tr>
+    <td style="width:50%">
+      <b>Attentive single-tasking of multiple tasks</b> 
+      <a href="https://openaccess.thecvf.com/content_CVPR_2019/html/Maninis_Attentive_Single-Tasking_of_Multiple_Tasks_CVPR_2019_paper.html"><i>[Paper]</i></a> 
+      <a href = "https://github.com/facebookresearch/astmt"><i>[Code]</i></a>
+      <br>
+      <b>Authors:</b> Kevis-Kokitsi Maninis, Ilija Radosavovic and Iasonas Kokkinos<br>
+      <b>Publisher:</b> Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition <br>
+      <b>Year:</b> 2019 <br>
+    </td>
+    <!-- <td style="width:50%">
+      <img src="img/psd_module.png" alt="Description of image" style="max-width:100%">
+    </td> -->
+    
+  </tr>
+
+  <tr>
+  <td style="width:50%">
+    <b>Exploring relational context for multi-task dense prediction</b> 
+    <a href="https://openaccess.thecvf.com/content/ICCV2021/html/Bruggemann_Exploring_Relational_Context_for_Multi-Task_Dense_Prediction_ICCV_2021_paper.html"><i>[Paper]</i></a> 
+    <a href = "https://github.com/brdav/atrc"><i>[Code]</i></a>
+    <br>
+    <b>Authors:</b> David Bruggemann, Menelaos Kanakis, Anton Obukhov, Stamatios Georgoulis and Luc Van Gool<br>
+    <b>Publisher:</b> Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition <br>
+    <b>Year:</b> 2021 <br>
+  </td>
+  <!-- <td style="width:50%">
+    <img src="img/psd_module.png" alt="Description of image" style="max-width:100%">
+  </td> -->
+  
+  </tr>
+
+  <tr>
+  <td style="width:50%">
+    <b> Demt: Deformable mixer transformer for multi-task learning of dense prediction</b> 
+    <a href="https://ui.adsabs.harvard.edu/abs/2023arXiv230103461X/abstract"><i>[Paper]</i></a> 
+    <a href = "https://github.com/yangyangxu0/demt"><i>[Code]</i></a>
+    <br>
+    <b>Authors:</b> Yangyang Xu, Yibo Yang and Lefei Zhang<br>
+    <b>Publisher:</b> arXiv e-prints <br>
+    <b>Year:</b> 2023 <br>
+  </td>
+  <!-- <td style="width:50%">
+    <img src="img/psd_module.png" alt="Description of image" style="max-width:100%">
+  </td> -->
+  
+  </tr> 
+
+
 </table>
 
+<a name = "task_balance"></a>
+#### Task Balancing
+<table style="width:100%">
+  <tr>
+    <th style="width:50%">Paper</th>
+    <th style="width:50%">Network</th>
+  </tr>
+  <tr>
+    <td style="width:50%">
+      <b>Multi-task learning using uncertainty to weigh losses for scene geometry and semantics</b> <a href="https://openaccess.thecvf.com/content_cvpr_2018/html/Kendall_Multi-Task_Learning_Using_CVPR_2018_paper.html"><i>[Paper]</i></a> 
+      <a href = "https://github.com/ranandalon/mtl"><i>[Code]</i></a><br>
+      <b>Authors:</b> Alex Kendall, Yarin Gal and Roberto Cipollae<br>
+      <b>Publisher:</b> Proceedings of the IEEE conference on computer vision and pattern recognition <br>
+      <b>Year:</b> 2018 <br>
+    </td>
+    <!-- <td style="width:50%">
+      <img src="img/pad_module.png" alt="Description of image" style="max-width:100%">
+    </td> -->
+  </tr>
+  <tr>
+    <td style="width:50%">
+      <b>Gradnorm: Gradient normalization for adaptive loss balancing in deep multitask networks</b> <a href="http://proceedings.mlr.press/v80/chen18a.html?ref=https://githubhelp.com"><i>[Paper]</i></a> 
+      <a href = "https://github.com/LucasBoTang/GradNorm"><i>[Code]</i></a><br>
+      <b>Authors:</b> Zhao Chen, Vijay Badrinarayanan, Chen-Yu Lee and Andrew Rabinovich<br>
+      <b>Publisher:</b> International conference on machine learning <br>
+      <b>Year:</b> 2018 <br>
+    </td>
+    <!-- <td style="width:50%">
+      <img src="img/pad_module.png" alt="Description of image" style="max-width:100%">
+    </td> -->
+  </tr>
+</table>
+<a name = "task_conditioning"></a>
+#### Task Conditioning
+
+<a name = "task_grouping"></a>
+#### Task Grouping
+
+<a name = "task_scheduling"></a>
+#### Task Scheduling
+
+<a name = "mixture_of_experts"></a>
+#### Mixture of Experts
+
+<a name = "graph_based"></a>
+#### Graph-based
+<table style="width:100%">
+  <tr>
+    <th style="width:50%">Paper</th>
+    <th style="width:50%">Network</th>
+  </tr>
+  <tr>
+    <td style="width:50%">
+      <b>Leveraging sequence classification by taxonomy-based multitask
+      learning</b> 
+      <a href="https://link.springer.com/chapter/10.1007/978-3-642-12683-3_34"><i>[Paper]</i></a> 
+      <!-- <a href = "https://github.com/ranandalon/mtl"><i>[Code]</i></a><br> -->
+      <b>Authors:</b> Christian Widmer, Jose Leiva, Yasemin Altun and Gunnar Rätsch <br>
+      <b>Publisher:</b> Research in Computational Molecular Biology: 14th Annual International Conference, RECOMB 2010, Lisbon, Portugal, April 25-28, 2010. Proceedings 14 <br>
+      <b>Year:</b> 2010 <br>
+    </td>
+    <!-- <td style="width:50%">
+      <img src="img/pad_module.png" alt="Description of image" style="max-width:100%">
+    </td> -->
+  </tr>
+
+</table>
 <!-- <a name="architectures"></a>
 ## Architectures
 
