@@ -23,6 +23,7 @@ Our survey primarily aims to provide a comprehensive understanding of MTL, encom
       - [Task Clustering](#task-clustering)
     - [Deep Learning Era](#deep-learning-era)
       - [Feature Fusion](#feature-fusion)
+      - [Cascading](#cascading)
       - [Knowledge Distillation](#knowledge-distillation)
       - [Cross-Task Attention](#cross-task-attention)
       - [Task Balancing](#task-balancing)
@@ -314,7 +315,89 @@ Proceedings of the 18th ACM SIGKDD international conference on Knowledge discove
     </td> 
   </tr>
 </table>
+<a name = "cascading"></a>
+#### Cascading
+<table style="width:100%">
+  <tr>
+    <th style="width:50%">Paper</th>
+    <th style="width:50%">Network</th>
+  </tr>
+  <tr>
+    <td style="width:50%">
+      <b>Deep multi-task learning with low level tasks supervised at lower layers</b> <a href="https://aclanthology.org/P16-2038/"><i>[Paper]</i></a> 
+      <!-- <a href = "https://github.com/VICO-UoE/KD4MTL"><i>[Code]</i></a> -->
+      <br>
+      <b>Authors:</b> Anders S{\o}gaard and Yoav Goldberg<br>
+      <b>Publisher:</b> Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers <br>
+      <b>Year:</b> 2016 <br>
+    </td>
+    <!-- <td style="width:50%">
+      <img src="img/kd4mtl_pipeline.png" alt="Description of image" style="max-width:100%">
+    </td> -->
+    
+  </tr>
+  <tr>
+    <td style="width:50%">
+      <b>Instance-aware semantic segmentation via multi-task network cascades</b> <a href="https://openaccess.thecvf.com/content_cvpr_2016/html/Dai_Instance-Aware_Semantic_Segmentation_CVPR_2016_paper.html"><i>[Paper]</i></a> 
+      <a href = "https://github.com/daijifeng001/MNC"><i>[Code]</i></a>
+      <br>
+      <b>Authors:</b> Jifeng Dai, Kaiming He and Jian Sun<br>
+      <b>Publisher:</b> Proceedings of the IEEE conference on computer vision and pattern recognition <br>
+      <b>Year:</b> 2016 <br>
+    </td>
+    <!-- <td style="width:50%">
+      <img src="img/kd4mtl_pipeline.png" alt="Description of image" style="max-width:100%">
+    </td> -->
+    
+  </tr>
 
+  <tr>
+    <td style="width:50%">
+      <b>A Joint Many-Task Model: Growing a Neural Network for
+Multiple NLP Tasks</b> <a href="https://arxiv.org/abs/1611.01587"><i>[Paper]</i></a> 
+      <a href = "https://github.com/hassyGo/charNgram2vec"><i>[Code]</i></a>
+      <br>
+      <b>Authors:</b> Kazuma Hashimoto, Caiming Xiong, Yoshimasa Tsuruoka, Richard Socher <br>
+      <b>Publisher:</b> arXiv preprint arXiv:1611.01587 <br>
+      <b>Year:</b> 2016 <br>
+    </td>
+    <!-- <td style="width:50%">
+      <img src="img/kd4mtl_pipeline.png" alt="Description of image" style="max-width:100%">
+    </td> -->
+    
+  </tr>
+
+  <tr>
+    <td style="width:50%">
+      <b>  Deep cascade multi-task learning for slot filling in online shopping assistant</b> <a href="https://ojs.aaai.org/index.php/AAAI/article/view/4611"><i>[Paper]</i></a> 
+      <a href = "https://github.com/gy910210/DCMTL"><i>[Code]</i></a>
+      <br>
+      <b>Authors:</b> Yu Gong, Xusheng Luo, Yu Zhu, Wenwu Ou, Zhao Li, Muhua Zhu, Kenny Q. Zhu, Lu Duan and Xi Chen <br>
+      <b>Publisher:</b> Proceedings of the AAAI conference on artificial intelligence <br>
+      <b>Year:</b> 2019  <br>
+    </td>
+    <!-- <td style="width:50%">
+      <img src="img/kd4mtl_pipeline.png" alt="Description of image" style="max-width:100%">
+    </td> -->
+    
+  </tr>
+  <tr>
+    <td style="width:50%">
+      <b> A hierarchical multi-task approach for learning embeddings from semantic tasks</b> <a href="https://ojs.aaai.org/index.php/AAAI/article/view/4673"><i>[Paper]</i></a> 
+      <a href = "https://github.com/huggingface/hmtl"><i>[Code]</i></a>
+      <br>
+      <b>Authors:</b> Victor Sanh, Thomas Wolf and Sebastian Ruder <br>
+      <b>Publisher:</b> Proceedings of the AAAI conference on artificial intelligence <br>
+      <b>Year:</b> 2019  <br>
+    </td>
+    <!-- <td style="width:50%">
+      <img src="img/kd4mtl_pipeline.png" alt="Description of image" style="max-width:100%">
+    </td> -->
+    
+  </tr>
+
+
+</table>
 <a name = "knowledge-distillation"></a>
 #### Knowledge Distillation
 <table style="width:100%">
@@ -563,6 +646,7 @@ learning</b> <a href="https://link.springer.com/chapter/10.1007/978-3-030-58548-
       learning</b> 
       <a href="https://link.springer.com/chapter/10.1007/978-3-642-12683-3_34"><i>[Paper]</i></a> 
       <!-- <a href = "https://github.com/ranandalon/mtl"><i>[Code]</i></a><br> -->
+      <br>
       <b>Authors:</b> Christian Widmer, Jose Leiva, Yasemin Altun and Gunnar Rätsch <br>
       <b>Publisher:</b> Research in Computational Molecular Biology: 14th Annual International Conference, RECOMB 2010, Lisbon, Portugal, April 25-28, 2010. Proceedings 14 <br>
       <b>Year:</b> 2010 <br>
