@@ -26,9 +26,9 @@ Our survey primarily aims to provide a comprehensive understanding of MTL, encom
       - [Cascading](#cascading)
       - [Knowledge Distillation](#knowledge-distillation)
       - [Cross-Task Attention](#cross-task-attention)
-      - [Task Balancing](#task-balancing)
+      - [Scalarization Approach](#scalarization-approach)
       - [Task Conditioning](#task-conditioning)
-      - [Task Grouping](#task-grouping)
+      - [Adversarial Training](#adversarial-training)
       - [Task Scheduling](#task-scheduling)
       - [Mixture of Experts](#mixture-of-experts)
       - [Graph-based](#graph-based)
@@ -299,8 +299,6 @@ Proceedings of the 18th ACM SIGKDD international conference on Knowledge discove
       <img src="img/sluice_block.png" alt="Description of image" style="max-width:100%">
     </td> 
   </tr>
-
-  </tr>
   <tr>
     <td style="width:50%">
       <b>Nddr-cnn: Layerwise feature fusing in multi-task cnns by neural discriminative dimensionality reduction</b> <a href="https://scholar.google.com/scholar?hl=en&as_sdt=0%2C39&q=%E2%80%9CNddr-cnn%3A+Layerwise+feature+fusing+in+multi-task+cnns+by+neural+discriminative+dimensionality+reduction%2C&btnG="><i>[Paper]</i></a> 
@@ -315,8 +313,10 @@ Proceedings of the 18th ACM SIGKDD international conference on Knowledge discove
     </td> 
   </tr>
 </table>
+
 <a name = "cascading"></a>
 #### Cascading
+
 <table style="width:100%">
   <tr>
     <th style="width:50%">Paper</th>
@@ -400,6 +400,7 @@ Multiple NLP Tasks</b> <a href="https://arxiv.org/abs/1611.01587"><i>[Paper]</i>
 </table>
 <a name = "knowledge-distillation"></a>
 #### Knowledge Distillation
+
 <table style="width:100%">
   <tr>
     <th style="width:50%">Paper</th>
@@ -441,9 +442,9 @@ Multiple NLP Tasks</b> <a href="https://arxiv.org/abs/1611.01587"><i>[Paper]</i>
       <b>Publisher:</b> Proceedings of the AAAI Conference on Artificial Intelligence <br>
       <b>Year:</b> 2022 <br>
     </td>
-    <!-- <td style="width:50%">
-      <img src="img/must_pipeline.png" alt="Description of image" style="max-width:100%">
-    </td> -->
+    <td style="width:50%">
+      <img src="img/cross_task_kd.png" alt="Description of image" style="max-width:100%">
+    </td>
     
   </tr>
   <tr>
@@ -548,9 +549,9 @@ learning</b> <a href="https://link.springer.com/chapter/10.1007/978-3-030-58548-
       <b>Publisher:</b> Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition <br>
       <b>Year:</b> 2019 <br>
     </td>
-    <!-- <td style="width:50%">
-      <img src="img/psd_module.png" alt="Description of image" style="max-width:100%">
-    </td> -->
+    <td style="width:50%">
+      <img src="img/astmt.png" alt="Description of image" style="max-width:100%">
+    </td>
     
   </tr>
 
@@ -564,9 +565,9 @@ learning</b> <a href="https://link.springer.com/chapter/10.1007/978-3-030-58548-
     <b>Publisher:</b> Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition <br>
     <b>Year:</b> 2021 <br>
   </td>
-  <!-- <td style="width:50%">
-    <img src="img/psd_module.png" alt="Description of image" style="max-width:100%">
-  </td> -->
+  <td style="width:50%">
+    <img src="img/atrc.png" alt="Description of image" style="max-width:100%">
+  </td>
   
   </tr>
 
@@ -580,21 +581,46 @@ learning</b> <a href="https://link.springer.com/chapter/10.1007/978-3-030-58548-
     <b>Publisher:</b> arXiv e-prints <br>
     <b>Year:</b> 2023 <br>
   </td>
-  <!-- <td style="width:50%">
-    <img src="img/psd_module.png" alt="Description of image" style="max-width:100%">
-  </td> -->
+  <td style="width:50%">
+    <img src="img/demt.png" alt="Description of image" style="max-width:100%">
+  </td>
   
   </tr> 
 
 
 </table>
 
-<a name = "task_balance"></a>
-#### Task Balancing
+<a name = "scalarization_approach"></a>
+#### Scalarization Approach
 <table style="width:100%">
+
   <tr>
     <th style="width:50%">Paper</th>
     <th style="width:50%">Network</th>
+  </tr>
+  <tr>
+    <td style="width:50%">
+      <b>Gradient surgery for multi-task learning</b> <a href="https://proceedings.neurips.cc/paper/2020/hash/3fe78a8acf5fda99de95303940a2420c-Abstract.html"><i>[Paper]</i></a> 
+      <a href = "https://github.com/tianheyu927/PCGrad"><i>[Code]</i></a><br>
+      <b>Authors:</b> Tianhe Yu, Saurabh Kumar, Abhishek Gupta, Sergey Levine, Karol Hausman, Chelsea Finn<br>
+      <b>Publisher:</b> Advances in Neural Information Processing Systems <br>
+      <b>Year:</b> 2020 <br>
+    </td>
+    <!-- <td style="width:50%">
+      <img src="img/pad_module.png" alt="Description of image" style="max-width:100%">
+    </td> -->
+  </tr>
+    <tr>
+    <td style="width:50%">
+      <b>Recon: Reducing Conflicting Gradients From the Root For Multi-Task Learning</b> <a href="https://openreview.net/forum?id=ivwZO-HnzG_"><i>[Paper]</i></a> 
+      <a href = "https://github.com/moukamisama/recon"><i>[Code]</i></a><br>
+      <b>Authors:</b> Guangyuan Shi, Qimai Li, Wenlong Zhang, Jiaxin Chen, Xiao-Ming Wu<br>
+      <b>Publisher:</b> The Eleventh International Conference on Learning Representations <br>
+      <b>Year:</b> 2022 <br>
+    </td>
+    <!-- <td style="width:50%">
+      <img src="img/pad_module.png" alt="Description of image" style="max-width:100%">
+    </td> -->
   </tr>
   <tr>
     <td style="width:50%">
@@ -620,18 +646,208 @@ learning</b> <a href="https://link.springer.com/chapter/10.1007/978-3-030-58548-
       <img src="img/pad_module.png" alt="Description of image" style="max-width:100%">
     </td> -->
   </tr>
+  <tr>
+    <td style="width:50%">
+      <b> End-to-end multi-task learning with attention</b> <a href="https://openaccess.thecvf.com/content_CVPR_2019/html/Liu_End-To-End_Multi-Task_Learning_With_Attention_CVPR_2019_paper.html"><i>[Paper]</i></a> 
+      <a href = "https://github.com/lorenmt/mtan"><i>[Code]</i></a><br>
+      <b>Authors:</b> Shikun Liu, Edward Johns, Andrew J. Davison<br>
+      <b>Publisher:</b> Proceedings of the IEEE/CVF conference on computer vision and pattern recognition <br>
+      <b>Year:</b> 2019 <br>
+    </td>
+    <!-- <td style="width:50%">
+      <img src="img/pad_module.png" alt="Description of image" style="max-width:100%">
+    </td> -->
+  </tr>
+    <tr>
+    <td style="width:50%">
+      <b>Towards impartial multi-task learning</b> <a href="https://openreview.net/forum?id=IMPnRXEWpvr"><i>[Paper]</i></a> 
+      <a href = "https://github.com/lorenmt/mtan"><i>[Code]</i></a><br>
+      <b>Authors:</b> Liyang Liu, Yi Li, Zhanghui Kuang, Jing-Hao Xue, Yimin Chen, Wenming Yang, Qingmin Liao, Wayne Zhang<br>
+      <b>Publisher:</b> ICLR <br>
+      <b>Year:</b> 2021 <br>
+    </td>
+    <!-- <td style="width:50%">
+      <img src="img/pad_module.png" alt="Description of image" style="max-width:100%">
+    </td> -->
+  </tr>
 </table>
+
+
 <a name = "task_conditioning"></a>
 #### Task Conditioning
 
-<a name = "task_grouping"></a>
-#### Task Grouping
 
+
+<a name = "Adversarial training"></a>
+#### Adversarial Training
+<table style="width:100%">
+  <tr>
+    <th style="width:50%">Paper</th>
+    <th style="width:50%">Network</th>
+  </tr>
+  <tr>
+    <td style="width:50%">
+      <b>Adversarial Multi-task Learning for Text Classification</b> 
+      <a href="https://arxiv.org/abs/1704.05742"><i>[Paper]</i></a> 
+      <a href = "https://github.com/FrankWork/fudan_mtl_reviews"><i>[Code]</i></a>
+      <br>
+      <b>Authors:</b> Pengfei Liu, Xipeng Qiu, Xuanjing Huang <br>
+      <b>Publisher:</b> arXiv preprint arXiv:1704.05742 <br>
+      <b>Year:</b> 2017 <br>
+    </td>
+    <!-- <td style="width:50%">
+      <img src="img/pad_module.png" alt="Description of image" style="max-width:100%">
+    </td> -->
+  </tr>
+
+</table>
 <a name = "task_scheduling"></a>
 #### Task Scheduling
 
 <a name = "mixture_of_experts"></a>
 #### Mixture of Experts
+<table style="width:100%">
+  <tr>
+    <th style="width:50%">Paper</th>
+    <th style="width:50%">Network</th>
+  </tr>
+  <tr>
+    <td style="width:50%">
+      <b>Modeling task relationships in multi-task learning with multi-gate mixture-of-experts</b> 
+      <a href="https://dl.acm.org/doi/abs/10.1145/3219819.3220007"><i>[Paper]</i></a> 
+      <a href = "https://paperswithcode.com/paper/modeling-task-relationships-in-multi-task"><i>[Code]</i></a><br>
+      <b>Authors:</b> Jiaqi Ma, Zhe Zhao, Xinyang Yi, Jilin Chen, Lichan Hong and Ed H Chi<br>
+      <b>Publisher:</b> Proceedings of the 24th ACM SIGKDD international conference on knowledge discovery \& data mining <br>
+      <b>Year:</b> 2018 <br>
+    </td>
+    <!-- <td style="width:50%">
+      <img src="img/pad_module.png" alt="Description of image" style="max-width:100%">
+    </td> -->
+  </tr>
+  <tr>
+    <td style="width:50%">
+      <b>Dselect-k: Differentiable selection in the mixture of experts with applications to multi-task learning</b> 
+      <a href="https://proceedings.neurips.cc/paper_files/paper/2021/hash/f5ac21cd0ef1b88e9848571aeb53551a-Abstract.html"><i>[Paper]</i></a> 
+      <a href = "https://paperswithcode.com/paper/dselect-k-differentiable-selection-in-the#code"><i>[Code]</i></a><br>
+      <b>Authors:</b> Hussein Hazimeh, Zhe Zhao, Aakanksha Chowdhery, Maheswaran Sathiamoorthy, Yihua Chen, Rahul Mazumder, Lichan Hong, Ed H. Chi<br>
+      <b>Publisher:</b> Advances in Neural Information Processing Systems <br>
+      <b>Year:</b> 2021 <br>
+    </td>
+    <!-- <td style="width:50%">
+      <img src="img/pad_module.png" alt="Description of image" style="max-width:100%">
+    </td> -->
+  </tr>
+  <tr>
+    <td style="width:50%">
+      <b>Sparsely Activated Mixture-of-Experts are Robust Multi-Task Learners</b> 
+      <a href="https://arxiv.org/abs/2204.07689"><i>[Paper]</i></a> 
+      <!-- <a href = "https://paperswithcode.com/paper/dselect-k-differentiable-selection-in-the#code"><i>[Code]</i></a><br> -->
+      <br>
+      <b>Authors:</b> Shashank Gupta, Subhabrata Mukherjee, Krishan Subudhi, Eduardo Gonzalez, Damien Jose, Ahmed H. Awadallah, Jianfeng Gao<br>
+      <b>Publisher:</b> arXiv preprint arXiv:2204.07689 <br>
+      <b>Year:</b> 2021 <br>
+    </td>
+    <!-- <td style="width:50%">
+      <img src="img/pad_module.png" alt="Description of image" style="max-width:100%">
+    </td> -->
+  </tr>
+  <tr>
+    <td style="width:50%">
+      <b>SSummaReranker: A multi-task mixture-of-experts re-ranking framework for abstractive summarization</b> 
+      <a href="https://arxiv.org/abs/2203.06569"><i>[Paper]</i></a> 
+      <!-- <a href = "https://paperswithcode.com/paper/dselect-k-differentiable-selection-in-the#code"><i>[Code]</i></a><br> -->
+      <br>
+      <b>Authors:</b> Mathieu Ravaut, Shafiq Joty, Nancy F. Chen<br>
+      <b>Publisher:</b> arXiv preprint arXiv:2203.06569 <br>
+      <b>Year:</b> 2022 <br>
+    </td>
+    <!-- <td style="width:50%">
+      <img src="img/pad_module.png" alt="Description of image" style="max-width:100%">
+    </td> -->
+  </tr>
+  <tr>
+    <td style="width:50%">
+      <b>Multi-task learning with calibrated mixture of insightful experts</b>
+      <a href="https://ieeexplore.ieee.org/abstract/document/9835373/"><i>[Paper]</i></a> 
+      <!-- <a href = "https://paperswithcode.com/paper/dselect-k-differentiable-selection-in-the#code"><i>[Code]</i></a><br> -->
+      <br>
+      <b>Authors:</b> Sinan Wang, Yumeng Li, Hongyan Li, Tanchao Zhu, Zhao Li, Wenwu Ou<br>
+      <b>Publisher:</b> 2022 IEEE 38th International Conference on Data Engineering (ICDE) <br>
+      <b>Year:</b> 2022 <br>
+    </td>
+    <!-- <td style="width:50%">
+      <img src="img/pad_module.png" alt="Description of image" style="max-width:100%">
+    </td> -->
+  </tr>
+  <tr>
+    <td style="width:50%">
+      <b>Mod-Squad: Designing Mixtures of Experts As Modular Multi-Task Learners</b>
+      <a href="https://openaccess.thecvf.com/content/CVPR2023/html/Chen_Mod-Squad_Designing_Mixtures_of_Experts_As_Modular_Multi-Task_Learners_CVPR_2023_paper.html"><i>[Paper]</i></a> 
+      <!-- <a href = "https://paperswithcode.com/paper/dselect-k-differentiable-selection-in-the#code"><i>[Code]</i></a><br> -->
+      <br>
+      <b>Authors:</b> Zitian Chen, Yikang Shen, Mingyu Ding, Zhenfang Chen, Hengshuang Zhao, Erik Learned-Miller, Chuang Gan<br>
+      <b>Publisher:</b> Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition <br>
+      <b>Year:</b> 2023 <br>
+    </td>
+    <!-- <td style="width:50%">
+      <img src="img/pad_module.png" alt="Description of image" style="max-width:100%">
+    </td> -->
+  </tr>
+  <tr>
+    <td style="width:50%">
+      <b>Eliciting transferability in multi-task learning with task-level mixture-of-experts</b>
+      <a href="https://arxiv.org/abs/2205.12701"><i>[Paper]</i></a> 
+      <a href = "https://paperswithcode.com/paper/eliciting-transferability-in-multi-task#code"><i>[Code]</i></a><br>
+      <b>Authors:</b> Qinyuan Ye, Juan Zha, Xiang Ren<br>
+      <b>Publisher:</b> arXiv preprint arXiv:2205.12701 <br>
+      <b>Year:</b> 2022 <br>
+    </td>
+    <!-- <td style="width:50%">
+      <img src="img/pad_module.png" alt="Description of image" style="max-width:100%">
+    </td> -->
+  </tr>
+  <tr>
+    <td style="width:50%">
+      <b>Eliciting and Understanding Cross-Task Skills with Task-Level Mixture-of-Experts</b>
+      <a href="https://arxiv.org/abs/2205.12701"><i>[Paper]</i></a> 
+      <a href = "https://paperswithcode.com/paper/eliciting-transferability-in-multi-task#code"><i>[Code]</i></a><br>
+      <b>Authors:</b> Qinyuan Ye, Juan Zha, Xiang Ren<br>
+      <b>Publisher:</b> arXiv preprint arXiv:2205.12701 <br>
+      <b>Year:</b> 2022 <br>
+    </td>
+    <!-- <td style="width:50%">
+      <img src="img/pad_module.png" alt="Description of image" style="max-width:100%">
+    </td> -->
+  </tr>
+  <tr>
+    <td style="width:50%">
+      <b>M³ViT: Mixture-of-Experts Vision Transformer for Efficient Multi-task Learning with Model-Accelerator Co-design</b>
+      <a href="https://proceedings.neurips.cc/paper_files/paper/2022/hash/b653f34d576d1790481e3797cb740214-Abstract-Conference.html"><i>[Paper]</i></a> 
+      <a href = "https://paperswithcode.com/paper/m-3-vit-mixture-of-experts-vision-transformer#code"><i>[Code]</i></a><br>
+      <b>Authors:</b> Hanxue Liang, Zhiwen Fan, Rishov Sarkar, Ziyu Jiang, Tianlong Chen, Kai Zou, Yu Cheng, Cong Hao, Zhangyang Wang<br>
+      <b>Publisher:</b> Advances in Neural Information Processing Systems <br>
+      <b>Year:</b> 2022 <br>
+    </td>
+    <!-- <td style="width:50%">
+      <img src="img/pad_module.png" alt="Description of image" style="max-width:100%">
+    </td> -->
+  </tr>
+  <tr>
+    <td style="width:50%">
+      <b>AdaMV-MoE: Adaptive Multi-Task Vision Mixture-of-Experts</b>
+      <a href="https://openaccess.thecvf.com/content/ICCV2023/html/Chen_AdaMV-MoE_Adaptive_Multi-Task_Vision_Mixture-of-Experts_ICCV_2023_paper.html"><i>[Paper]</i></a> 
+      <a href = "https://paperswithcode.com/paper/adamv-moe-adaptive-multi-task-vision-mixture#code"><i>[Code]</i></a><br>
+      <b>Authors:</b> Tianlong Chen, Xuxi Chen, Xianzhi Du, Abdullah Rashwan, Fan Yang, Huizhong Chen, Zhangyang Wang, Yeqing Li<br>
+      <b>Publisher:</b> Proceedings of the IEEE/CVF International Conference on Computer Vision <br>
+      <b>Year:</b> 2023 <br>
+    </td>
+    <!-- <td style="width:50%">
+      <img src="img/pad_module.png" alt="Description of image" style="max-width:100%">
+    </td> -->
+  </tr>
+</table>
+
+
 
 <a name = "graph_based"></a>
 #### Graph-based
@@ -647,7 +863,7 @@ learning</b> <a href="https://link.springer.com/chapter/10.1007/978-3-030-58548-
       <a href="https://link.springer.com/chapter/10.1007/978-3-642-12683-3_34"><i>[Paper]</i></a> 
       <!-- <a href = "https://github.com/ranandalon/mtl"><i>[Code]</i></a><br> -->
       <br>
-      <b>Authors:</b> Christian Widmer, Jose Leiva, Yasemin Altun and Gunnar Rätsch <br>
+      <b>Authors:</b> Christian Widmer, Jose Leiva, Yasemin Altun, Gunnar Rätsch <br>
       <b>Publisher:</b> Research in Computational Molecular Biology: 14th Annual International Conference, RECOMB 2010, Lisbon, Portugal, April 25-28, 2010. Proceedings 14 <br>
       <b>Year:</b> 2010 <br>
     </td>
@@ -655,7 +871,34 @@ learning</b> <a href="https://link.springer.com/chapter/10.1007/978-3-030-58548-
       <img src="img/pad_module.png" alt="Description of image" style="max-width:100%">
     </td> -->
   </tr>
-
+  <tr>
+    <td style="width:50%">
+      <b>Multi-label image recognition with graph convolutional networks</b> 
+      <a href="https://openaccess.thecvf.com/content_CVPR_2019/html/Chen_Multi-Label_Image_Recognition_With_Graph_Convolutional_Networks_CVPR_2019_paper.html"><i>[Paper]</i></a> 
+      <a href = "https://paperswithcode.com/paper/multi-label-image-recognition-with-graph#code"><i>[Code]</i></a>
+      <br>
+      <b>Authors:</b> Zhao-Min Chen, Xiu-Shen Wei, Peng Wang, Yanwen Guo <br>
+      <b>Publisher:</b> Proceedings of the IEEE/CVF conference on computer vision and pattern recognition <br>
+      <b>Year:</b> 2019 <br>
+    </td>
+    <td style="width:50%">
+      <img src="img/ML-GCN.png" alt="Description of image" style="max-width:100%">
+    </td>
+  </tr>
+  <tr>
+    <td style="width:50%">
+      <b>Relational Multi-Task Learning: Modeling Relations between Data and Tasks</b> 
+      <a href="https://arxiv.org/abs/2303.07666"><i>[Paper]</i></a> 
+      <a href = "https://paperswithcode.com/paper/relational-multi-task-learning-modeling-1#code"><i>[Code]</i></a>
+      <br>
+      <b>Authors:</b> Kaidi Cao, Jiaxuan You, Jure Leskovec <br>
+      <b>Publisher:</b> ParXiv preprint arXiv:2303.07666 <br>
+      <b>Year:</b> 2023<br>
+    </td>
+    <td style="width:50%">
+      <img src="img/ML-GCN.png" alt="Description of image" style="max-width:100%">
+    </td>
+  </tr>
 </table>
 <!-- <a name="architectures"></a>
 ## Architectures
