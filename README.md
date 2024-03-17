@@ -155,8 +155,8 @@ MTL, consisting of 4 million samples from 3D scans of ∼ 600 buildings. This pr
 <a name ="traditional-era"></a>
 ### Traditional era
 
-<a name = "sparse-learning"></a>
-#### Sparse Learning
+<a name = "feature-selection"></a>
+#### Feature Selection
 
 - **Multi-Task Feature Selection** \
 *Guillaume Obozinski, Ben Taskar and Michael Jordan* \
@@ -196,8 +196,8 @@ Proceedings of the 2012 SIAM International Conference on Data Mining 2012.
 Advances in neural information processing systems 2012. 
 
 
-<a name = "feature-learning"></a>
-#### Feature Learning
+<a name = "feature-transformation"></a>
+#### Feature Transformation
 - **A framework for learning predictive structures from multiple tasks and
 unlabeled data** [[Paper](https://www.jmlr.org/papers/volume6/ando05a/ando05a.pdf)] \
 *Rie Kubota Ando, Tong Zhang and Peter Bartlett* \
@@ -219,8 +219,8 @@ Advances in neural information processing systems 2006.
 Proceedings of the 53rd Annual Meeting of the Association for Computational Linguistics and the 7th International Joint Conference on Natural Language Processing 2015. 
 
 
-<a  name = "low-rang-learning"></a>
-#### Low-rank Learning
+<a  name = "low-rang-factorization"></a>
+#### Low-Rank Factorization
 
 - **An accelerated gradient method for trace norm minimization** [[Paper](https://dl.acm.org/doi/abs/10.1145/1553374.1553434?casa_token=9J7YNGdK0jEAAAAA:enMIpGXqhGpAPKlYswpPOyLqlztQx9OwdTHnKGXV5L0HRvx0Wz2UjJY3cP73VTU84PqG7R6k-dJu)] \
 *Shuiwang Ji and Jieping Ye* \
@@ -231,8 +231,22 @@ Proceedings of the 26th annual international conference on machine learning 2009
 *Lei Han and Yu Zhang* \
 Proceedings of the AAAI Conference on Artificial Intelligence 2016. 
 
-<a name = "learing-via-decomposition"></a>
-#### Learning via Decomposition
+- **Multitask learning meets tensor factorization: task imputation via convex optimization** [[Paper](https://proceedings.neurips.cc/paper/2014/hash/6d9cb7de5e8ac30bd5e8734bc96a35c1-Abstract.html)] \
+*Kishan Wimalawarne, Masashi Sugiyama and Ryota Tomioka* \
+Advances in neural information processing systems. 
+
+- **Multilinear multitask learning** [[Paper](https://proceedings.mlr.press/v28/romera-paredes13.html)] \
+*Bernardino Romera-Paredes, Hane Aung, Nadia Bianchi-Berthouze and Massimiliano Pontil* \
+International Conference on Machine Learning. 
+
+- **Learning Linear and Nonlinear Low-Rank Structure in Multi-Task Learning** [[Paper](https://ieeexplore.ieee.org/abstract/document/9875058/)] \
+*Yi Zhang, Yu Zhang and Wei Wang* \
+IEEE Transactions on Knowledge and Data Engineering. 
+
+
+
+<a name = "decomposition"></a>
+#### Decomposition
 
 - **Integrating low-rank and group-sparse structures for robust multi-task learning** [[Paper](https://dl.acm.org/doi/abs/10.1145/2020408.2020423?casa_token=ztgYGGR1stsAAAAA:awKc_tKgcDBo6oL8s7kwngbfIqMi_O5gePUIUQiZUtaBNvgmCU670NbfPdO487XFCUoJOGH_wsAb)] \
 *Jianhui Chen, Jiayu Zhou and Jieping Ye* \
@@ -246,19 +260,71 @@ ACM Transactions on Knowledge Discovery from Data 2012.
 *Aurelie C Lozano and Grzegorz Swirszcz* \
 Proceedings of the 29th International Coference on International Conference on Machine Learning 2012. 
 
-- **Robust multi-task feature learning** [[Paper](https://dl.acm.org/doi/abs/10.1145/2339530.2339672?casa_token=eakEuKmTUtEAAAAA:xeumdsvJ0ojB-uWcRnMUjscW-G4ry1fqlEveVLvlt5rnV5M1ZgxJxc1N0h3unKi9_JJrgK4kF4rq)] \
+- **Robust multi-task feature learning** [[Paper](https://dl.acm.org/doi/abs/10.1145/2339530.2339672casa_token=eakEuKmTUtEAAAAA:xeumdsvJ0ojB-uWcRnMUjscW-G4ry1fqlEveVLvlt5rnV5M1ZgxJxc1N0h3unKi9_JJrgK4kF4rq)] \
 *Pinghua Gong, Jieping Ye and Changshui Zhang* \
 Proceedings of the 18th ACM SIGKDD international conference on Knowledge discovery and data mining 2012. 
 
+- **A dirty model for multi-task learning** [[Paper](https://proceedings.neurips.cc/paper/2010/hash/00e26af6ac3b1c1c49d7c3d79c60d000-Abstract.html)] \
+*Ali Jalali, Sujay Sanghavi, Chao Ruan and Pradeep Ravikumar* \
+Advances in neural information processing systems.
 
-<a name = "learning-via-factorization"></a>
-#### Learning via Factorization
+- **A framework for learning predictive structures from multiple tasks and unlabeled data.** [[Paper](https://www.jmlr.org/papers/volume6/ando05a/ando05a.pdf?ref=ruder.io)] \
+*Rie Kubota Ando, Tong Zhang and Peter Bartlett* \
+Journal of Machine Learning Research
 
-<a name = "task-relationship-learning"></a>
-#### Task Relationship Learning
 
-<a name = "task-clustering"></a>
+<a name = "priori-sharing"></a>
+#### Priori Sharing
+
+- **Regularized multi--task learning.** [[Paper](https://dl.acm.org/doi/abs/10.1145/1014052.1014067)] \
+*Parameswaran, Shibin and Weinberger, Kilian Q* \
+Proceedings of the tenth ACM SIGKDD international conference on Knowledge discovery and data mining
+
+- **Large margin multi-task metric learning.** [[Paper](https://proceedings.neurips.cc/paper/2010/hash/087408522c31eeb1f982bc0eaf81d35f-Abstract.html)] \
+*Evgeniou, Theodoros and Pontil, Massimiliano* \
+Advances in neural information processing systems
+
+- **Learning multiple tasks with kernel methods.** [[Paper](https://www.jmlr.org/papers/volume6/evgeniou05a/evgeniou05a.pdf)] \
+*Evgeniou, Theodoros and Micchelli, Charles A and Pontil, Massimiliano and Shawe-Taylor, John* \
+Journal of machine learning research
+
+- **Multi-task learning via conic programming.** [[Paper](https://proceedings.neurips.cc/paper/2007/hash/67f7fb873eaf29526a11a9b7ac33bfac-Abstract.html)] \
+*Kato, Tsuyoshi and Kashima, Hisashi and Sugiyama, Masashi and Asai, Kiyoshi* \
+Advances in Neural Information Processing Systems
+
+- **Hierarchical multitask structured output learning for large-scale sequence segmentation.** [[Paper](https://proceedings.neurips.cc/paper/2011/hash/ac796a52db3f16bbdb6557d3d89d1c5a-Abstract.html)] \
+*G{\"o}rnitz, Nico and Widmer, Christian and Zeller, Georg and Kahles, Andr{\'e} and R{\"a}tsch, Gunnar and Sonnenburg, S{\"o}ren* \
+Advances in Neural Information Processing Systems
+
+- **Multi-task Gaussian process prediction.** [[Paper](https://proceedings.neurips.cc/paper_files/paper/2007/hash/66368270ffd51418ec58bd793f2d9b1b-Abstract.html)] \
+*Bonilla, Edwin V and Chai, Kian and Williams, Christopher* \
+Advances in Neural Information Processing Systems
+
+- **Multi-task learning using generalized t process.** [[Paper](https://proceedings.mlr.press/v9/zhang10c.html)] \
+*Zhang, Yu and Yeung, Dit--Yan* \
+JMLR Workshop and Conference Proceedings
+
+- **A convex formulation for learning task relationships in multi-task learning.** [[Paper](https://arxiv.org/abs/1203.3536)] \
+*Zhang, Yu and Yeung, Dit--Yan* \
+arXiv preprint arXiv:1203.3536
+
+
+
+<a name = "Task Clustering/Grouping"></a>
 #### Task Clustering
+
+- **Clustered Multi-Task Learning Via Alternating Structure Optimization.** [[Paper](https://proceedings.neurips.cc/paper/2011/hash/a516a87cfcaef229b342c437fe2b95f7-Abstract.html)] \
+*Zhou, Jiayu and Chen, Jianhui and Ye, Jieping* \
+Advances in Neural Information Processing Systems
+
+- **A Framework for Learning Predictive Structures from Multiple Tasks and Unlabeled Data.** [[Paper](https://dl.acm.org/doi/10.5555/1046920.1194905)] \
+*Ando, Rie Kubota and Zhang, Tong* \
+JMLR.org
+
+- **Learning tree structure in multi-task learning.** [[Paper](https://dl.acm.org/doi/abs/10.1145/2783258.2783393)] \
+*Han, Lei and Zhang, Yu* \
+Association for Computing Machinery
+
 
 <a name = "deeplearning-era"></a>
 ### Deep Learning Era
@@ -328,12 +394,12 @@ Proceedings of the 18th ACM SIGKDD international conference on Knowledge discove
       <!-- <a href = "https://github.com/VICO-UoE/KD4MTL"><i>[Code]</i></a> -->
       <br>
       <b>Authors:</b> Anders S{\o}gaard and Yoav Goldberg<br>
-      <b>Publisher:</b> Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers <br>
+      <b>Publisher:</b> Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics Volume 2: Short Papers <br>
       <b>Year:</b> 2016 <br>
     </td>
-    <!-- <td style="width:50%">
-      <img src="img/kd4mtl_pipeline.png" alt="Description of image" style="max-width:100%">
-    </td> -->
+    <td style="width:50%">
+      <img src="img/cascade_1.png" alt="Description of image" style="max-width:100%">
+    </td>
     
   </tr>
   <tr>
@@ -345,9 +411,9 @@ Proceedings of the 18th ACM SIGKDD international conference on Knowledge discove
       <b>Publisher:</b> Proceedings of the IEEE conference on computer vision and pattern recognition <br>
       <b>Year:</b> 2016 <br>
     </td>
-    <!-- <td style="width:50%">
-      <img src="img/kd4mtl_pipeline.png" alt="Description of image" style="max-width:100%">
-    </td> -->
+    <td style="width:50%">
+      <img src="img/cascade_2.png" alt="Description of image" style="max-width:100%">
+    </td>
     
   </tr>
 
@@ -361,9 +427,9 @@ Multiple NLP Tasks</b> <a href="https://arxiv.org/abs/1611.01587"><i>[Paper]</i>
       <b>Publisher:</b> arXiv preprint arXiv:1611.01587 <br>
       <b>Year:</b> 2016 <br>
     </td>
-    <!-- <td style="width:50%">
-      <img src="img/kd4mtl_pipeline.png" alt="Description of image" style="max-width:100%">
-    </td> -->
+    <td style="width:50%">
+      <img src="img/cascade_3.png" alt="Description of image" style="max-width:100%">
+    </td>
     
   </tr>
 
@@ -376,9 +442,9 @@ Multiple NLP Tasks</b> <a href="https://arxiv.org/abs/1611.01587"><i>[Paper]</i>
       <b>Publisher:</b> Proceedings of the AAAI conference on artificial intelligence <br>
       <b>Year:</b> 2019  <br>
     </td>
-    <!-- <td style="width:50%">
-      <img src="img/kd4mtl_pipeline.png" alt="Description of image" style="max-width:100%">
-    </td> -->
+    <td style="width:50%">
+      <img src="img/cascade_4.png" alt="Description of image" style="max-width:100%">
+    </td>
     
   </tr>
   <tr>
@@ -395,11 +461,11 @@ Multiple NLP Tasks</b> <a href="https://arxiv.org/abs/1611.01587"><i>[Paper]</i>
     </td> -->
     
   </tr>
-
-
 </table>
+
 <a name = "knowledge-distillation"></a>
-#### Knowledge Distillation
+#### Knowledge Distilation
+
 
 <table style="width:100%">
   <tr>
@@ -461,6 +527,20 @@ Multiple NLP Tasks</b> <a href="https://arxiv.org/abs/1611.01587"><i>[Paper]</i>
     </td>
     
   </tr>
+  <tr>
+    <td style="width:50%">
+      <b>Online Knowledge Distillation for Multi-Task Learning</b> <a href="https://openaccess.thecvf.com/content/WACV2023/html/Jacob_Online_Knowledge_Distillation_for_Multi-Task_Learning_WACV_2023_paper.html"><i>[Paper]</i></a> 
+      <!-- <a href = "https://github.com/VICO-UoE/KD4MTL"><i>[Code]</i></a> -->
+      <br>
+      <b>Authors:</b> Geethu Miriam Jacob and Vishal Agarwal<br>
+      <b>Publisher:</b> Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision <br>
+      <b>Year:</b> 2023 <br>
+    </td>
+    <td style="width:50%">
+      <img src="img/okd_mtl.png" alt="Description of image" style="max-width:100%">
+    </td>
+    
+  </tr>
 </table>
 
 <a name = "cross_task_attention"></a>
@@ -492,9 +572,7 @@ Multiple NLP Tasks</b> <a href="https://arxiv.org/abs/1611.01587"><i>[Paper]</i>
       <b>Publisher:</b> Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition <br>
       <b>Year:</b> 2019 <br>
     </td>
-    <!-- <td style="width:50%">
-      <img src="img/pad_module.png" alt="Description of image" style="max-width:100%">
-    </td> -->
+
   </tr>
   <tr>
     <td style="width:50%">
@@ -534,9 +612,9 @@ learning</b> <a href="https://link.springer.com/chapter/10.1007/978-3-030-58548-
       <b>Publisher:</b> Computer Vision--ECCV 2020: 16th European Conference, Glasgow, UK, August 23--28, 2020, Proceedings, Part IV 16 <br>
       <b>Year:</b> 2020 <br>
     </td>
-    <!-- <td style="width:50%">
-      <img src="img/psd_module.png" alt="Description of image" style="max-width:100%">
-    </td> -->
+    <td style="width:50%">
+      <img src="img/MTI-Net.png" alt="Description of image" style="max-width:100%">
+    </td>
     
   </tr>
   <tr>
@@ -587,11 +665,25 @@ learning</b> <a href="https://link.springer.com/chapter/10.1007/978-3-030-58548-
   
   </tr> 
 
-
+  <!-- <tr>
+  <td style="width:50%">
+    <b> </b> 
+    <a href=""><i>[Paper]</i></a> 
+    <a href = ""><i>[Code]</i></a>
+    <br>
+    <b>Authors:</b> <br>
+    <b>Publisher:</b> <br>
+    <b>Year:</b> <br>
+  </td>
+  <td style="width:50%">
+    <img src="" alt="Description of image" style="max-width:100%">
+  </td>
+  
+  </tr>  -->
 </table>
 
 <a name = "scalarization_approach"></a>
-#### Scalarization Approach
+#### Scalarization 
 <table style="width:100%">
 
   <tr>
