@@ -1,7 +1,13 @@
 # Awesome-Multitask-Learning
 <!-- This repository periodicly updates the the papers and resources of MTL. -->
 Our survey primarily aims to provide a comprehensive understanding of MTL, encompassing its definition, taxonomy, applications, and their connections and trends. We delve into the various aspects of MTL methods, including the loss function, network architecture, and optimization methods, offering explanations and insights from the perspective of technical details. For each method, we provide the corresponding paper link, as well as the code repository for the MTL methods discussed in the paper. We sincerely hope that this survey aids in your comprehension of MTL and its associated methods. If you have any questions or suggestions, please feel free to contact us.
-> [**Unleashing the Power of Multi-Task Learning: A Comprehensive Survey Spanning Traditional, Deep, and Pre-Trained Foundation Model Eras **](https://junfish.github.io/)
+
+> @article{yu2024unleashing,  
+title={[Unleashing the Power of Multi-Task Learning: A Comprehensive Survey Spanning Traditional, Deep, and Pre-Trained Foundation Model Eras](https://arxiv.org/pdf/2404.18961)},  
+author={Yu, Jun and Dai, Yutong and Liu, Xiaokang and Huang, Jin and Shen, Yishan and Zhang, Ke and Zhou, Rong and Adhikarla, Eashan and Ye, Wenxuan and Liu, Yixin and others},  
+journal={arXiv preprint arXiv:2404.18961},  
+year={2024}  
+}
 
 
 ## Table of Contents:
