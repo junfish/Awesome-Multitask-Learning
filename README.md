@@ -839,41 +839,29 @@ learning</b> <a href="https://link.springer.com/chapter/10.1007/978-3-030-58548-
     <th style="width:50%">Paper</th>
     <th style="width:50%">Network</th>
   </tr>
-  <tr>
+    <tr>
     <td style="width:50%">
-      <b>Modeling task relationships in multi-task learning with multi-gate mixture-of-experts</b> 
-      <a href="https://dl.acm.org/doi/abs/10.1145/3219819.3220007"><i>[Paper]</i></a> 
-      <a href = "https://paperswithcode.com/paper/modeling-task-relationships-in-multi-task"><i>[Code]</i></a><br>
-      <b>Authors:</b> Jiaqi Ma, Zhe Zhao, Xinyang Yi, Jilin Chen, Lichan Hong and Ed H Chi<br>
-      <b>Publisher:</b> Proceedings of the 24th ACM SIGKDD international conference on knowledge discovery \& data mining <br>
-      <b>Year:</b> 2018 <br>
-    </td>
-    <td style="width:50%">
-      <img src="img/multi-moe.png" alt="Description of image" style="max-width:100%">
-    </td>
-  </tr>
-  <tr>
-    <td style="width:50%">
-      <b>Dselect-k: Differentiable selection in the mixture of experts with applications to multi-task learning</b> 
-      <a href="https://proceedings.neurips.cc/paper_files/paper/2021/hash/f5ac21cd0ef1b88e9848571aeb53551a-Abstract.html"><i>[Paper]</i></a> 
-      <a href = "https://paperswithcode.com/paper/dselect-k-differentiable-selection-in-the#code"><i>[Code]</i></a><br>
-      <b>Authors:</b> Hussein Hazimeh, Zhe Zhao, Aakanksha Chowdhery, Maheswaran Sathiamoorthy, Yihua Chen, Rahul Mazumder, Lichan Hong, Ed H. Chi<br>
-      <b>Publisher:</b> Advances in Neural Information Processing Systems <br>
-      <b>Year:</b> 2021 <br>
+      <b>Mod-Squad: Designing Mixtures of Experts As Modular Multi-Task Learners</b>
+      <a href="https://openaccess.thecvf.com/content/CVPR2023/html/Chen_Mod-Squad_Designing_Mixtures_of_Experts_As_Modular_Multi-Task_Learners_CVPR_2023_paper.html"><i>[Paper]</i></a> 
+      <!-- <a href = "https://paperswithcode.com/paper/dselect-k-differentiable-selection-in-the#code"><i>[Code]</i></a><br> -->
+      <br>
+      <b>Authors:</b> Zitian Chen, Yikang Shen, Mingyu Ding, Zhenfang Chen, Hengshuang Zhao, Erik Learned-Miller, Chuang Gan<br>
+      <b>Publisher:</b> Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition <br>
+      <b>Year:</b> 2023 <br>
     </td>
     <!-- <td style="width:50%">
       <img src="img/pad_module.png" alt="Description of image" style="max-width:100%">
     </td> -->
   </tr>
+
   <tr>
     <td style="width:50%">
-      <b>Sparsely Activated Mixture-of-Experts are Robust Multi-Task Learners</b> 
-      <a href="https://arxiv.org/abs/2204.07689"><i>[Paper]</i></a> 
-      <!-- <a href = "https://paperswithcode.com/paper/dselect-k-differentiable-selection-in-the#code"><i>[Code]</i></a><br> -->
-      <br>
-      <b>Authors:</b> Shashank Gupta, Subhabrata Mukherjee, Krishan Subudhi, Eduardo Gonzalez, Damien Jose, Ahmed H. Awadallah, Jianfeng Gao<br>
-      <b>Publisher:</b> arXiv preprint arXiv:2204.07689 <br>
-      <b>Year:</b> 2021 <br>
+      <b>AdaMV-MoE: Adaptive Multi-Task Vision Mixture-of-Experts</b>
+      <a href="https://openaccess.thecvf.com/content/ICCV2023/html/Chen_AdaMV-MoE_Adaptive_Multi-Task_Vision_Mixture-of-Experts_ICCV_2023_paper.html"><i>[Paper]</i></a> 
+      <a href = "https://paperswithcode.com/paper/adamv-moe-adaptive-multi-task-vision-mixture#code"><i>[Code]</i></a><br>
+      <b>Authors:</b> Tianlong Chen, Xuxi Chen, Xianzhi Du, Abdullah Rashwan, Fan Yang, Huizhong Chen, Zhangyang Wang, Yeqing Li<br>
+      <b>Publisher:</b> Proceedings of the IEEE/CVF International Conference on Computer Vision <br>
+      <b>Year:</b> 2023 <br>
     </td>
     <!-- <td style="width:50%">
       <img src="img/pad_module.png" alt="Description of image" style="max-width:100%">
@@ -907,21 +895,7 @@ learning</b> <a href="https://link.springer.com/chapter/10.1007/978-3-030-58548-
       <img src="img/pad_module.png" alt="Description of image" style="max-width:100%">
     </td> -->
   </tr>
-  <tr>
-    <td style="width:50%">
-      <b>Mod-Squad: Designing Mixtures of Experts As Modular Multi-Task Learners</b>
-      <a href="https://openaccess.thecvf.com/content/CVPR2023/html/Chen_Mod-Squad_Designing_Mixtures_of_Experts_As_Modular_Multi-Task_Learners_CVPR_2023_paper.html"><i>[Paper]</i></a> 
-      <!-- <a href = "https://paperswithcode.com/paper/dselect-k-differentiable-selection-in-the#code"><i>[Code]</i></a><br> -->
-      <br>
-      <b>Authors:</b> Zitian Chen, Yikang Shen, Mingyu Ding, Zhenfang Chen, Hengshuang Zhao, Erik Learned-Miller, Chuang Gan<br>
-      <b>Publisher:</b> Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition <br>
-      <b>Year:</b> 2023 <br>
-    </td>
-    <!-- <td style="width:50%">
-      <img src="img/pad_module.png" alt="Description of image" style="max-width:100%">
-    </td> -->
-  </tr>
-  <tr>
+    <tr>
     <td style="width:50%">
       <b>Eliciting transferability in multi-task learning with task-level mixture-of-experts</b>
       <a href="https://arxiv.org/abs/2205.12701"><i>[Paper]</i></a> 
@@ -962,17 +936,48 @@ learning</b> <a href="https://link.springer.com/chapter/10.1007/978-3-030-58548-
   </tr>
   <tr>
     <td style="width:50%">
-      <b>AdaMV-MoE: Adaptive Multi-Task Vision Mixture-of-Experts</b>
-      <a href="https://openaccess.thecvf.com/content/ICCV2023/html/Chen_AdaMV-MoE_Adaptive_Multi-Task_Vision_Mixture-of-Experts_ICCV_2023_paper.html"><i>[Paper]</i></a> 
-      <a href = "https://paperswithcode.com/paper/adamv-moe-adaptive-multi-task-vision-mixture#code"><i>[Code]</i></a><br>
-      <b>Authors:</b> Tianlong Chen, Xuxi Chen, Xianzhi Du, Abdullah Rashwan, Fan Yang, Huizhong Chen, Zhangyang Wang, Yeqing Li<br>
-      <b>Publisher:</b> Proceedings of the IEEE/CVF International Conference on Computer Vision <br>
-      <b>Year:</b> 2023 <br>
+      <b>Dselect-k: Differentiable selection in the mixture of experts with applications to multi-task learning</b> 
+      <a href="https://proceedings.neurips.cc/paper_files/paper/2021/hash/f5ac21cd0ef1b88e9848571aeb53551a-Abstract.html"><i>[Paper]</i></a> 
+      <a href = "https://paperswithcode.com/paper/dselect-k-differentiable-selection-in-the#code"><i>[Code]</i></a><br>
+      <b>Authors:</b> Hussein Hazimeh, Zhe Zhao, Aakanksha Chowdhery, Maheswaran Sathiamoorthy, Yihua Chen, Rahul Mazumder, Lichan Hong, Ed H. Chi<br>
+      <b>Publisher:</b> Advances in Neural Information Processing Systems <br>
+      <b>Year:</b> 2021 <br>
     </td>
     <!-- <td style="width:50%">
       <img src="img/pad_module.png" alt="Description of image" style="max-width:100%">
     </td> -->
   </tr>
+    <tr>
+    <td style="width:50%">
+      <b>Sparsely Activated Mixture-of-Experts are Robust Multi-Task Learners</b> 
+      <a href="https://arxiv.org/abs/2204.07689"><i>[Paper]</i></a> 
+      <!-- <a href = "https://paperswithcode.com/paper/dselect-k-differentiable-selection-in-the#code"><i>[Code]</i></a><br> -->
+      <br>
+      <b>Authors:</b> Shashank Gupta, Subhabrata Mukherjee, Krishan Subudhi, Eduardo Gonzalez, Damien Jose, Ahmed H. Awadallah, Jianfeng Gao<br>
+      <b>Publisher:</b> arXiv preprint arXiv:2204.07689 <br>
+      <b>Year:</b> 2021 <br>
+    </td>
+    <!-- <td style="width:50%">
+      <img src="img/pad_module.png" alt="Description of image" style="max-width:100%">
+    </td> -->
+  </tr>
+  <tr>
+    <td style="width:50%">
+      <b>Modeling task relationships in multi-task learning with multi-gate mixture-of-experts</b> 
+      <a href="https://dl.acm.org/doi/abs/10.1145/3219819.3220007"><i>[Paper]</i></a> 
+      <a href = "https://paperswithcode.com/paper/modeling-task-relationships-in-multi-task"><i>[Code]</i></a><br>
+      <b>Authors:</b> Jiaqi Ma, Zhe Zhao, Xinyang Yi, Jilin Chen, Lichan Hong and Ed H Chi<br>
+      <b>Publisher:</b> Proceedings of the 24th ACM SIGKDD international conference on knowledge discovery \& data mining <br>
+      <b>Year:</b> 2018 <br>
+    </td>
+    <td style="width:50%">
+      <img src="img/multi-moe.png" alt="Description of image" style="max-width:100%">
+    </td>
+  </tr>
+
+
+
+
 </table>
 
 
