@@ -20,24 +20,24 @@ year={2024}
     - [Dense prediction task](#dense-prediction-task)
   - [Methods](#methods)
     - [Traditional era](#traditional-era)
-      - [Sparse Learning](#sparse-learning)
-      - [Feature Learning](#feature-learning)
-      - [Low-rank Learning](#low-rank-learning)
-      - [Learning via Decomposition](#learning-via-decomposition)
-      - [Learning via Factorization](#learning-via-factorization)
-      - [Task Relationship Learning](#task-relationship-learning)
+      - [Feature Selection](#feature-selection)
+      - [Feature Transformation](#feature-transformation)
+      - [Low-Rank Factorization](#low-rank-factorization)
+      - [Decomposition](#decomposition)
+      - [Priori Sharing](#priori-sharing)
       - [Task Clustering](#task-clustering)
-    - [Deep Learning Era](#deep-learning-era)
+    - [Deep Learning Era](#deeplearning-era)
       - [Feature Fusion](#feature-fusion)
       - [Cascading](#cascading)
-      - [Knowledge Distillation](#knowledge-distillation)
+      - [Knowledge Distilation](#knowledge-distilation)
       - [Cross-Task Attention](#cross-task-attention)
-      - [Scalarization Approach](#scalarization-approach)
-      - [Task Conditioning](#task-conditioning)
+      - [Scalarization](#scalarization)
+      - [Multi-objective Optimization (MOO)](#multi-objective-optimization-moo)
       - [Adversarial Training](#adversarial-training)
-      - [Task Scheduling](#task-scheduling)
       - [Mixture of Experts](#mixture-of-experts)
       - [Graph-based](#graph-based)
+      
+
 <!-- - [Architectures](#architectures)
   - [Encoder-based](#encoder)
   - [Decoder-based](#decoder)
@@ -220,7 +220,7 @@ Journal of Machine Learning Research 2005.
 
 
 
-<a  name = "low-rang-factorization"></a>
+<a  name = "low-rank-factorization"></a>
 #### Low-Rank Factorization
 
 - **Learning Linear and Nonlinear Low-Rank Structure in Multi-Task Learning** [[Paper](https://ieeexplore.ieee.org/abstract/document/9875058/)] \
@@ -315,7 +315,7 @@ Proceedings of the tenth ACM SIGKDD international conference on Knowledge discov
 
 
 
-<a name = "Task Clustering/Grouping"></a>
+<a name = "task-clustering"></a>
 #### Task Clustering
 
 - **Learning tree structure in multi-task learning.** [[Paper](https://dl.acm.org/doi/abs/10.1145/2783258.2783393)] \
