@@ -1,13 +1,7 @@
 # Awesome-Multitask-Learning
 <!-- This repository periodicly updates the the papers and resources of MTL. -->
 Our survey primarily aims to provide a comprehensive understanding of MTL, encompassing its definition, taxonomy, applications, and their connections and trends. We delve into the various aspects of MTL methods, including the loss function, network architecture, and optimization methods, offering explanations and insights from the perspective of technical details. For each method, we provide the corresponding paper link, as well as the code repository for the MTL methods discussed in the paper. We sincerely hope that this survey aids in your comprehension of MTL and its associated methods. If you have any questions or suggestions, please feel free to contact us.
-
-> @article{yu2024unleashing,  
-title={[Unleashing the Power of Multi-Task Learning: A Comprehensive Survey Spanning Traditional, Deep, and Pre-Trained Foundation Model Eras](https://arxiv.org/pdf/2404.18961)},  
-author={Yu, Jun and Dai, Yutong and Liu, Xiaokang and Huang, Jin and Shen, Yishan and Zhang, Ke and Zhou, Rong and Adhikarla, Eashan and Ye, Wenxuan and Liu, Yixin and others},  
-journal={arXiv preprint arXiv:2404.18961},  
-year={2024}  
-}
+> [**Unleashing the Power of Multi-Task Learning: A Comprehensive Survey Spanning Traditional, Deep, and Pre-Trained Foundation Model Eras **](https://junfish.github.io/)
 
 
 ## Table of Contents:
@@ -342,10 +336,10 @@ The Journal of Machine Learning Research 2005
 
 
 <table style="width:100%">
-  <!-- <tr>
+  <tr>
     <th style="width:50%">Paper</th>
     <th style="width:50%">Network</th>
-  </tr> -->
+  </tr>
   <tr>
     <tr>
     <td style="width:50%">
@@ -391,10 +385,10 @@ The Journal of Machine Learning Research 2005
 #### Cascading
 
 <table style="width:100%">
-  <!-- <tr>
+  <tr>
     <th style="width:50%">Paper</th>
     <th style="width:50%">Network</th>
-  </tr> -->
+  </tr>
     <tr>
     <td style="width:50%">
       <b>  Deep cascade multi-task learning for slot filling in online shopping assistant</b> <a href="https://ojs.aaai.org/index.php/AAAI/article/view/4611"><i>[Paper]</i></a> 
@@ -418,9 +412,9 @@ The Journal of Machine Learning Research 2005
       <b>Publisher:</b> Proceedings of the AAAI conference on artificial intelligence <br>
       <b>Year:</b> 2019  <br>
     </td>
-    <td style="width:50%">
-      <img src="img/cascade_4.png" alt="Description of image" style="max-width:100%">
-    </td>
+    <!-- <td style="width:50%">
+      <img src="img/kd4mtl_pipeline.png" alt="Description of image" style="max-width:100%">
+    </td> -->
     
   </tr>
   <tr>
@@ -476,10 +470,10 @@ Multiple NLP Tasks</b> <a href="https://arxiv.org/abs/1611.01587"><i>[Paper]</i>
 
 
 <table style="width:100%">
-  <!-- <tr>
+  <tr>
     <th style="width:50%">Paper</th>
     <th style="width:50%">Network</th>
-  </tr> -->
+  </tr>
     <tr>
     <td style="width:50%">
       <b>Online Knowledge Distillation for Multi-Task Learning</b> <a href="https://openaccess.thecvf.com/content/WACV2023/html/Jacob_Online_Knowledge_Distillation_for_Multi-Task_Learning_WACV_2023_paper.html"><i>[Paper]</i></a> 
@@ -544,10 +538,10 @@ Multiple NLP Tasks</b> <a href="https://arxiv.org/abs/1611.01587"><i>[Paper]</i>
 #### Cross-Task Attention
 
 <table style="width:100%">
-  <!-- <tr>
+  <tr>
     <th style="width:50%">Paper</th>
     <th style="width:50%">Network</th>
-  </tr> -->
+  </tr>
   <tr>
   <td style="width:50%">
     <b> Demt: Deformable mixer transformer for multi-task learning of dense prediction</b> 
@@ -606,8 +600,8 @@ learning</b> <a href="https://link.springer.com/chapter/10.1007/978-3-030-58548-
     </td>
     
   </tr>
-  <tr>
-    <td colspan="2" style="width:100%">
+    <tr>
+    <td style="width:50%">
       <b>End-to-end multi-task learning with attention</b> <a href="https://openaccess.thecvf.com/content_CVPR_2019/html/Liu_End-To-End_Multi-Task_Learning_With_Attention_CVPR_2019_paper.html"><i>[Paper]</i></a> 
       <a href = "https://github.com/lorenmt/mtan"><i>[Code]</i></a><br>
       <b>Authors:</b> Shikun Liu, Edward Johns and Andrew J Davison<br>
@@ -685,12 +679,12 @@ learning</b> <a href="https://link.springer.com/chapter/10.1007/978-3-030-58548-
 #### Scalarization 
 <table style="width:100%">
 
-  <!-- <tr>
+  <tr>
     <th style="width:50%">Paper</th>
     <th style="width:50%">Network</th>
-  </tr> -->
+  </tr>
   <tr>
-    <td colspan="2" style="width:100%">
+    <td style="width:50%">
       <b>Recon: Reducing Conflicting Gradients From the Root For Multi-Task Learning</b> <a href="https://openreview.net/forum?id=ivwZO-HnzG_"><i>[Paper]</i></a> 
       <a href = "https://github.com/moukamisama/recon"><i>[Code]</i></a><br>
       <b>Authors:</b> Guangyuan Shi, Qimai Li, Wenlong Zhang, Jiaxin Chen, Xiao-Ming Wu<br>
@@ -702,7 +696,7 @@ learning</b> <a href="https://link.springer.com/chapter/10.1007/978-3-030-58548-
     </td> -->
   </tr>
   <tr>
-    <td colspan="2" style="width:100%">
+    <td style="width:50%">
       <b>Towards impartial multi-task learning</b> <a href="https://openreview.net/forum?id=IMPnRXEWpvr"><i>[Paper]</i></a> 
       <a href = "https://github.com/lorenmt/mtan"><i>[Code]</i></a><br>
       <b>Authors:</b> Liyang Liu, Yi Li, Zhanghui Kuang, Jing-Hao Xue, Yimin Chen, Wenming Yang, Qingmin Liao, Wayne Zhang<br>
@@ -726,7 +720,19 @@ learning</b> <a href="https://link.springer.com/chapter/10.1007/978-3-030-58548-
     </td>
   </tr>
   <tr>
-    <td colspan="2" style="width:100%">
+    <td style="width:50%">
+      <b> End-to-end multi-task learning with attention</b> <a href="https://openaccess.thecvf.com/content_CVPR_2019/html/Liu_End-To-End_Multi-Task_Learning_With_Attention_CVPR_2019_paper.html"><i>[Paper]</i></a> 
+      <a href = "https://github.com/lorenmt/mtan"><i>[Code]</i></a><br>
+      <b>Authors:</b> Shikun Liu, Edward Johns, Andrew J. Davison<br>
+      <b>Publisher:</b> Proceedings of the IEEE/CVF conference on computer vision and pattern recognition <br>
+      <b>Year:</b> 2019 <br>
+    </td>
+    <!-- <td style="width:50%">
+      <img src="img/pad_module.png" alt="Description of image" style="max-width:100%">
+    </td> -->
+  </tr>
+  <tr>
+    <td style="width:50%">
       <b>Multi-task learning using uncertainty to weigh losses for scene geometry and semantics</b> <a href="https://openaccess.thecvf.com/content_cvpr_2018/html/Kendall_Multi-Task_Learning_Using_CVPR_2018_paper.html"><i>[Paper]</i></a> 
       <a href = "https://github.com/ranandalon/mtl"><i>[Code]</i></a><br>
       <b>Authors:</b> Alex Kendall, Yarin Gal and Roberto Cipollae<br>
@@ -738,7 +744,7 @@ learning</b> <a href="https://link.springer.com/chapter/10.1007/978-3-030-58548-
     </td> -->
   </tr>
   <tr>
-    <td colspan="2" style="width:100%">
+    <td style="width:50%">
       <b>Gradnorm: Gradient normalization for adaptive loss balancing in deep multitask networks</b> <a href="http://proceedings.mlr.press/v80/chen18a.html?ref=https://githubhelp.com"><i>[Paper]</i></a> 
       <a href = "https://github.com/LucasBoTang/GradNorm"><i>[Code]</i></a><br>
       <b>Authors:</b> Zhao Chen, Vijay Badrinarayanan, Chen-Yu Lee and Andrew Rabinovich<br>
@@ -755,99 +761,16 @@ learning</b> <a href="https://link.springer.com/chapter/10.1007/978-3-030-58548-
 
 
 
-<a name = "Multi-objective Optimization (MOO)"></a>
-### Multi-objective Optimization (MOO)
-<table style="width:100%">
-  <tr>
-    <td colspan="2" style="width:100%">
-      <b>Mitigating gradient bias in multi-objective learning: A provably convergent approach</b> 
-      <a href=""><i>[Paper]</i></a> 
-      <a href = ""><i>[Code]</i></a>
-      <br>
-      <b>Authors:</b>Heshan Devaka Fernando，Han Shen, Miao Liu,Subhajit Chaudhury, Keerthiram Murugesan and Tianyi Chen<br>
-      <b>Publisher:</b>The Eleventh International Conference on Learning Representations  <br>
-      <b>Year:</b>2022  <br>
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" style="width:100%">
-      <b>Multi-task learning as a bargaining game</b> 
-      <a href="https://arxiv.org/abs/2202.01017"><i>[Paper]</i></a> 
-      <a href ="https://paperswithcode.com/paper/multi-task-learning-as-a-bargaining-game"><i>[Code]</i></a>
-      <br>
-      <b>Authors:</b>Aviv Navon, Aviv Shamsian, Idan Achituve, Haggai Maron, Kenji Kawaguchi, Gal Chechik and Ethan Fetaya<br>
-      <b>Publisher:</b>arXiv preprint arXiv:2202.01017  <br>
-      <b>Year:</b>2022  <br>
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" style="width:100%">
-      <b>Multi-task learning with user preferences: Gradient descent with controlled ascent in pareto optimization</b> 
-      <a href="https://proceedings.mlr.press/v119/mahapatra20a.html"><i>[Paper]</i></a> 
-      <a href = "https://paperswithcode.com/paper/multi-task-learning-with-user-preferences"><i>[Code]</i></a>
-      <br>
-      <b>Authors:</b>Debabrata Mahapatra and Vaibhav Rajan<br>
-      <b>Publisher:</b>International Conference on Machine Learning  <br>
-      <b>Year:</b>2020  <br>
-    </td>
-  </tr>
-  <tr>
-    <td colspan="1" style="width:100%">
-      <b>Pareto multi-task learning</b> 
-      <a href="https://proceedings.neurips.cc/paper_files/paper/2019/hash/685bfde03eb646c27ed565881917c71c-Abstract.html"><i>[Paper]</i></a> 
-      <a href = "https://paperswithcode.com/paper/pareto-multi-task-learning-1"><i>[Code]</i></a>
-      <br>
-      <b>Authors:</b>Xi Lin, Hui-Ling Zhen, Zhenhua Li, Qing-Fu Zhang and Sam Kwong<br>
-      <b>Publisher:</b>Advances in neural information processing systems  <br>
-      <b>Year:</b>2019  <br>
-    </td>
-  </tr>
 
-  <tr>
-    <td colspan="2" style="width:100%">
-      <b>Multi-task learning as multi-objective optimization</b> 
-      <a href="https://proceedings.neurips.cc/paper_files/paper/2018/hash/432aca3a1e345e339f35a30c8f65edce-Abstract.html"><i>[Paper]</i></a> 
-      <a href = "https://paperswithcode.com/paper/multi-task-learning-as-multi-objective"><i>[Code]</i></a>
-      <br>
-      <b>Authors:</b>Ozan Sener and Vladlen Koltun<br>
-      <b>Publisher:</b>Advances in neural information processing systems  <br>
-      <b>Year:</b>2018  <br>
-    </td>
-  </tr>
-  <tr>
-    <td colspan="1" style="width:100%">
-      <b>Multicriteria optimization</b> 
-      <a href="https://books.google.com.tw/books?hl=en&lr=&id=8wGyB5Sa2CUC&oi=fnd&pg=PA1&dq=Multicriteria+optimization&ots=ahYLzX1okW&sig=P0iD91TO_igyvyaZZxpB96fnB6A&redir_esc=y#v=onepage&q=Multicriteria%20optimization&f=false"><i>[Paper]</i></a> 
-      <!-- <a href = ""><i>[Code]</i></a> -->
-      <br>
-      <b>Authors:</b>Matthias Ehrgott<br>
-      <b>Publisher:</b>Springer Science \& Business Media  <br>
-      <b>Year:</b>2005  <br>
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" style="width:100%">
-      <b>Steepest descent methods for multicriteria optimization</b> 
-      <a href="https://link.springer.com/article/10.1007/s001860000043"><i>[Paper]</i></a> 
-      <!-- <a href = ""><i>[Code]</i></a> -->
-      <br>
-      <b>Authors:</b>J{\"o}rg Fliege and Benar Fux Svaiter<br>
-      <b>Publisher:</b>Springer<br>
-      <b>Year:</b>2000  <br>
-    </td>
-  </tr>
-
-
-</table>
 
 <a name = "Adversarial training"></a>
 #### Adversarial Training
 <table style="width:100%">
-  <!-- <tr>
+  <tr>
     <th style="width:50%">Paper</th>
     <th style="width:50%">Network</th>
-  </tr> -->
-  <tr>
+  </tr>
+    <tr>
     <td style="width:50%">
       <b>Representation disentanglement for multi-task learning with application to fetal ultrasound</b> 
       <a href="https://link.springer.com/chapter/10.1007/978-3-030-32875-7_6"><i>[Paper]</i></a> 
@@ -912,12 +835,12 @@ learning</b> <a href="https://link.springer.com/chapter/10.1007/978-3-030-58548-
 <a name = "mixture_of_experts"></a>
 #### Mixture of Experts
 <table style="width:100%">
-  <!-- <tr>
+  <tr>
     <th style="width:50%">Paper</th>
     <th style="width:50%">Network</th>
-  </tr> -->
+  </tr>
     <tr>
-      <td colspan="2" style="width:100%">
+    <td style="width:50%">
       <b>Mod-Squad: Designing Mixtures of Experts As Modular Multi-Task Learners</b>
       <a href="https://openaccess.thecvf.com/content/CVPR2023/html/Chen_Mod-Squad_Designing_Mixtures_of_Experts_As_Modular_Multi-Task_Learners_CVPR_2023_paper.html"><i>[Paper]</i></a> 
       <!-- <a href = "https://paperswithcode.com/paper/dselect-k-differentiable-selection-in-the#code"><i>[Code]</i></a><br> -->
@@ -932,7 +855,7 @@ learning</b> <a href="https://link.springer.com/chapter/10.1007/978-3-030-58548-
   </tr>
 
   <tr>
-    <td colspan="2" style="width:100%">
+    <td style="width:50%">
       <b>AdaMV-MoE: Adaptive Multi-Task Vision Mixture-of-Experts</b>
       <a href="https://openaccess.thecvf.com/content/ICCV2023/html/Chen_AdaMV-MoE_Adaptive_Multi-Task_Vision_Mixture-of-Experts_ICCV_2023_paper.html"><i>[Paper]</i></a> 
       <a href = "https://paperswithcode.com/paper/adamv-moe-adaptive-multi-task-vision-mixture#code"><i>[Code]</i></a><br>
@@ -945,7 +868,7 @@ learning</b> <a href="https://link.springer.com/chapter/10.1007/978-3-030-58548-
     </td> -->
   </tr>
   <tr>
-    <td colspan="2" style="width:100%">
+    <td style="width:50%">
       <b>SSummaReranker: A multi-task mixture-of-experts re-ranking framework for abstractive summarization</b> 
       <a href="https://arxiv.org/abs/2203.06569"><i>[Paper]</i></a> 
       <!-- <a href = "https://paperswithcode.com/paper/dselect-k-differentiable-selection-in-the#code"><i>[Code]</i></a><br> -->
@@ -959,7 +882,7 @@ learning</b> <a href="https://link.springer.com/chapter/10.1007/978-3-030-58548-
     </td> -->
   </tr>
   <tr>
-    <td colspan="2" style="width:100%">
+    <td style="width:50%">
       <b>Multi-task learning with calibrated mixture of insightful experts</b>
       <a href="https://ieeexplore.ieee.org/abstract/document/9835373/"><i>[Paper]</i></a> 
       <!-- <a href = "https://paperswithcode.com/paper/dselect-k-differentiable-selection-in-the#code"><i>[Code]</i></a><br> -->
@@ -981,12 +904,12 @@ learning</b> <a href="https://link.springer.com/chapter/10.1007/978-3-030-58548-
       <b>Publisher:</b> arXiv preprint arXiv:2205.12701 <br>
       <b>Year:</b> 2022 <br>
     </td>
-    <td style="width:50%">
-      <img src="img/single-moe.png" alt="Description of image" style="max-width:100%">
-    </td>
+    <!-- <td style="width:50%">
+      <img src="img/pad_module.png" alt="Description of image" style="max-width:100%">
+    </td> -->
   </tr>
   <tr>
-    <td colspan="2" style="width:100%">
+    <td style="width:50%">
       <b>Eliciting and Understanding Cross-Task Skills with Task-Level Mixture-of-Experts</b>
       <a href="https://arxiv.org/abs/2205.12701"><i>[Paper]</i></a> 
       <a href = "https://paperswithcode.com/paper/eliciting-transferability-in-multi-task#code"><i>[Code]</i></a><br>
@@ -999,7 +922,7 @@ learning</b> <a href="https://link.springer.com/chapter/10.1007/978-3-030-58548-
     </td> -->
   </tr>
   <tr>
-    <td colspan="2" style="width:100%">
+    <td style="width:50%">
       <b>M³ViT: Mixture-of-Experts Vision Transformer for Efficient Multi-task Learning with Model-Accelerator Co-design</b>
       <a href="https://proceedings.neurips.cc/paper_files/paper/2022/hash/b653f34d576d1790481e3797cb740214-Abstract-Conference.html"><i>[Paper]</i></a> 
       <a href = "https://paperswithcode.com/paper/m-3-vit-mixture-of-experts-vision-transformer#code"><i>[Code]</i></a><br>
@@ -1012,7 +935,7 @@ learning</b> <a href="https://link.springer.com/chapter/10.1007/978-3-030-58548-
     </td> -->
   </tr>
   <tr>
-    <td colspan="2" style="width:100%">
+    <td style="width:50%">
       <b>Dselect-k: Differentiable selection in the mixture of experts with applications to multi-task learning</b> 
       <a href="https://proceedings.neurips.cc/paper_files/paper/2021/hash/f5ac21cd0ef1b88e9848571aeb53551a-Abstract.html"><i>[Paper]</i></a> 
       <a href = "https://paperswithcode.com/paper/dselect-k-differentiable-selection-in-the#code"><i>[Code]</i></a><br>
@@ -1025,7 +948,7 @@ learning</b> <a href="https://link.springer.com/chapter/10.1007/978-3-030-58548-
     </td> -->
   </tr>
     <tr>
-    <td colspan="2" style="width:100%">
+    <td style="width:50%">
       <b>Sparsely Activated Mixture-of-Experts are Robust Multi-Task Learners</b> 
       <a href="https://arxiv.org/abs/2204.07689"><i>[Paper]</i></a> 
       <!-- <a href = "https://paperswithcode.com/paper/dselect-k-differentiable-selection-in-the#code"><i>[Code]</i></a><br> -->
@@ -1051,18 +974,6 @@ learning</b> <a href="https://link.springer.com/chapter/10.1007/978-3-030-58548-
       <img src="img/multi-moe.png" alt="Description of image" style="max-width:100%">
     </td>
   </tr>
-  <tr>
-    <td style="width:50%">
-      <b>Outrageously large neural networks: The sparsely-gated mixture-of-experts layer</b> 
-      <a href="https://arxiv.org/abs/1701.06538"><i>[Paper]</i></a> <br>
-      <b>Authors:</b> Noam Shazeer, Azalia Mirhoseini, Krzysztof  Maziarz, Andy Davis, Quoc Le,, Geoffrey Hinton and Jeff Dean<br>
-      <b>Publisher:</b> arXiv preprint arXiv:1701.06538 <br>
-      <b>Year:</b> 2017 <br>
-    </td>
-    <td style="width:50%">
-      <img src="img/moe.png" alt="Description of image" style="max-width:100%">
-    </td>
-  </tr>
 
 
 
@@ -1075,6 +986,10 @@ learning</b> <a href="https://link.springer.com/chapter/10.1007/978-3-030-58548-
 #### Graph-based
 <table style="width:100%">
   <tr>
+    <th style="width:50%">Paper</th>
+    <th style="width:50%">Network</th>
+  </tr>
+    <tr>
     <td style="width:50%">
       <b>Relational Multi-Task Learning: Modeling Relations between Data and Tasks</b> 
       <a href="https://arxiv.org/abs/2303.07666"><i>[Paper]</i></a> 
@@ -1088,7 +1003,7 @@ learning</b> <a href="https://link.springer.com/chapter/10.1007/978-3-030-58548-
       <img src="img/metalink.png" alt="Description of image" style="max-width:100%">
     </td>
   </tr>
-  <tr>
+    <tr>
     <td style="width:50%">
       <b>Multi-label image recognition with graph convolutional networks</b> 
       <a href="https://openaccess.thecvf.com/content_CVPR_2019/html/Chen_Multi-Label_Image_Recognition_With_Graph_Convolutional_Networks_CVPR_2019_paper.html"><i>[Paper]</i></a> 
@@ -1101,8 +1016,9 @@ learning</b> <a href="https://link.springer.com/chapter/10.1007/978-3-030-58548-
     <td style="width:50%">
       <img src="img/ML-GCN.png" alt="Description of image" style="max-width:100%">
     </td>
+  </tr>
   <tr>
-    <td colspan="2" style="width:100%">
+    <td style="width:50%">
       <b>Leveraging sequence classification by taxonomy-based multitask
       learning</b> 
       <a href="https://link.springer.com/chapter/10.1007/978-3-642-12683-3_34"><i>[Paper]</i></a> 
@@ -1116,6 +1032,8 @@ learning</b> <a href="https://link.springer.com/chapter/10.1007/978-3-030-58548-
       <img src="img/pad_module.png" alt="Description of image" style="max-width:100%">
     </td> -->
   </tr>
+
+
 </table>
 <!-- <a name="architectures"></a>
 ## Architectures
