@@ -6,7 +6,9 @@ Welcome to Awesome-Multitask-Learning, a curated repository of papers, code, and
 This repository is grounded in our three-part survey published in Harvard Data Science Review (HDSR):
 
 📘 Part I: Fundamentals — introduces MTL from its origins, with formal definitions, taxonomies, and core motivations.
+
 📗 Part II: Regularization and Optimization — dives deep into the theoretical techniques enabling task-sharing, including loss functions, inductive biases, and training dynamics.
+
 📙 Part III: Applications — showcases real-world deployment of MTL methods, and how recent developments like pre-trained foundation models (PFMs) reshape the practical landscape of multi-task systems.
 
 Together, these papers span from 1997 to 2024, mapping the MTL journey across generations of machine learning paradigms. Each method in this repo is linked to its source paper and, when available, code implementations.
