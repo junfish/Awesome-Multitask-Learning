@@ -1,42 +1,15 @@
 # Awesome-Multitask-Learning
 <!-- This repository periodicly updates the the papers and resources of MTL. -->
-Our survey primarily aims to provide a comprehensive understanding of MTL, encompassing its definition, taxonomy, applications, and their connections and trends. We delve into the various aspects of MTL methods, including the loss function, network architecture, and optimization methods, offering explanations and insights from the perspective of technical details. For each method, we provide the corresponding paper link, as well as the code repository for the MTL methods discussed in the paper. We sincerely hope that this survey aids in your comprehension of MTL and its associated methods. If you have any questions or suggestions, please feel free to contact us.
+Awesome-Multitask-Learning
+Welcome to Awesome-Multitask-Learning, a curated repository of papers, code, and datasets in the field of Multi-Task Learning (MTL). This repo is designed to serve both newcomers and experienced researchers seeking a comprehensive understanding of the evolution, methods, and applications of MTL—from classical approaches to modern deep learning and pre-trained foundation models.
 
-> @article{Jun2024Multi,
-	author = {Jun Yu, Xiaokang Liu, Chongliang Luo, Jin Huang, Rong Zhou, Yixin Liu, Jie Hu, Jianmin Chen, Ke Zhang, Dazheng Zhang, Yishan Shen, Eashan Adhikarla, Yutong Dai, Kai Zhang, Zhaoming Kong, Wenxuan Ye, Yilong Yin, Vinod Namboodiri, Brian D. Davison, Jason H. Moore, Yong Chen},
-	journal = {Harvard Data Science Review},
-	number = {Special Issue X},
-	year = {2024},
-	month = {may 31},
-	note = {https://hdsr.mitpress.mit.edu/pub/xxxxxx},
-	publisher = {The MIT Press},
-	title = {Multi-Task Learning 1997-2024: Part I Fundamentals},
-	volume = { },
-}
+This repository is grounded in our three-part survey published in Harvard Data Science Review (HDSR):
 
-> @article{Jun2024Multi,
-	author = {Xiaokang Liu, Jun Yu, Yutong Dai, Yishan Shen, Jianmin Chen, Jie Hu, Jin Huang, Yixin Liu, Yilong Yin, Vinod Namboodiri, Brian D. Davison, Jason H. Moore, Yong Chen},
-	journal = {Harvard Data Science Review},
-	number = {Special Issue X},
-	year = {2024},
-	month = {may 31},
-	note = {https://hdsr.mitpress.mit.edu/pub/xxxxxx},
-	publisher = {The MIT Press},
-	title = {Multi-Task Learning 1997-2024: Part II Regularization and Optimization},
-	volume = { },
-}
+📘 Part I: Fundamentals — introduces MTL from its origins, with formal definitions, taxonomies, and core motivations.
+📗 Part II: Regularization and Optimization — dives deep into the theoretical techniques enabling task-sharing, including loss functions, inductive biases, and training dynamics.
+📙 Part III: Applications — showcases real-world deployment of MTL methods, and how recent developments like pre-trained foundation models (PFMs) reshape the practical landscape of multi-task systems.
 
-> @article{Jun2024Multi,
-	author = {Jun Yu, Jin Huang, Kai Zhang, Yixin Liu, Ke Zhang, Yishan Shen, Dazheng Zhang, Rong Zhou, Xiaokang Liu, Yilong Yin, Vinod Namboodiri, Brian D. Davison, Jason H. Moore, Yong Chen},
-	journal = {Harvard Data Science Review},
-	number = {Special Issue X},
-	year = {2024},
-	month = {may 31},
-	note = {https://hdsr.mitpress.mit.edu/pub/xxxxxx},
-	publisher = {The MIT Press},
-	title = {Multi-Task Learning 1997-2024: Part III Applications},
-	volume = { },
-}
+Together, these papers span from 1997 to 2024, mapping the MTL journey across generations of machine learning paradigms. Each method in this repo is linked to its source paper and, when available, code implementations.
 
 
 ## Table of Contents:
@@ -1146,6 +1119,48 @@ learning</b> <a href="https://link.springer.com/chapter/10.1007/978-3-030-58548-
     </td> -->
   </tr>
 </table>
+
+✉️ Contact
+If you have questions, ideas, or wish to contribute, feel free to reach out:
+
+📧 Jun Yu (juy220@lehigh.edu)
+📧 Yong Chen (ychen123@pennmedicine.upenn.edu)
+
+> @article{Jun2024Multi,
+	author = {Jun Yu, Xiaokang Liu, Chongliang Luo, Jin Huang, Rong Zhou, Yixin Liu, Jie Hu, Jianmin Chen, Ke Zhang, Dazheng Zhang, Yishan Shen, Eashan Adhikarla, Yutong Dai, Kai Zhang, Zhaoming Kong, Wenxuan Ye, Yilong Yin, Vinod Namboodiri, Brian D. Davison, Jason H. Moore, Yong Chen},
+	journal = {Harvard Data Science Review},
+	number = {Special Issue X},
+	year = {2024},
+	month = {may 31},
+	note = {https://hdsr.mitpress.mit.edu/pub/xxxxxx},
+	publisher = {The MIT Press},
+	title = {Multi-Task Learning 1997-2024: Part I Fundamentals},
+	volume = { },
+}
+
+> @article{Jun2024Multi,
+	author = {Xiaokang Liu, Jun Yu, Yutong Dai, Yishan Shen, Jianmin Chen, Jie Hu, Jin Huang, Yixin Liu, Yilong Yin, Vinod Namboodiri, Brian D. Davison, Jason H. Moore, Yong Chen},
+	journal = {Harvard Data Science Review},
+	number = {Special Issue X},
+	year = {2024},
+	month = {may 31},
+	note = {https://hdsr.mitpress.mit.edu/pub/xxxxxx},
+	publisher = {The MIT Press},
+	title = {Multi-Task Learning 1997-2024: Part II Regularization and Optimization},
+	volume = { },
+}
+
+> @article{Jun2024Multi,
+	author = {Jun Yu, Jin Huang, Kai Zhang, Yixin Liu, Ke Zhang, Yishan Shen, Dazheng Zhang, Rong Zhou, Xiaokang Liu, Yilong Yin, Vinod Namboodiri, Brian D. Davison, Jason H. Moore, Yong Chen},
+	journal = {Harvard Data Science Review},
+	number = {Special Issue X},
+	year = {2024},
+	month = {may 31},
+	note = {https://hdsr.mitpress.mit.edu/pub/xxxxxx},
+	publisher = {The MIT Press},
+	title = {Multi-Task Learning 1997-2024: Part III Applications},
+	volume = { },
+}
 <!-- <a name="architectures"></a>
 ## Architectures
 
