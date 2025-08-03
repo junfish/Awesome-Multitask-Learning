@@ -1128,40 +1128,30 @@ If you have questions, ideas, or wish to contribute, feel free to reach out:
 📧 Jun Yu (juy220@lehigh.edu)
 📧 Yong Chen (ychen123@pennmedicine.upenn.edu)
 
-> @article{Jun2024Multi,
-	author = {Jun Yu, Xiaokang Liu, Chongliang Luo, Jin Huang, Rong Zhou, Yixin Liu, Jie Hu, Jianmin Chen, Ke Zhang, Dazheng Zhang, Yishan Shen, Eashan Adhikarla, Yutong Dai, Kai Zhang, Zhaoming Kong, Wenxuan Ye, Yilong Yin, Vinod Namboodiri, Brian D. Davison, Jason H. Moore, Yong Chen},
-	journal = {Harvard Data Science Review},
-	number = {Special Issue X},
-	year = {2024},
-	month = {may 31},
-	note = {https://hdsr.mitpress.mit.edu/pub/xxxxxx},
-	publisher = {The MIT Press},
-	title = {Multi-Task Learning 1997-2024: Part I Fundamentals},
-	volume = { },
+> @article{yu2025multitask,
+  title={Multitask Learning 1997--2024: Part I Fundamentals},
+  author={Yu, Jun and Liu, Xiaokang and Luo, Chongliang and Huang, Jin and Zhou, Rong and Liu, Yixin and Hu, Jie and Chen, Jianmin and Zhang, Ke and Zhang, Dazheng and others},
+  journal={Harvard Data Science Review},
+  volume={7},
+  number={3},
+  year={2025},
+  publisher={The MIT Press}
 }
 
-> @article{Jun2024Multi,
-	author = {Xiaokang Liu, Jun Yu, Yutong Dai, Yishan Shen, Jianmin Chen, Jie Hu, Jin Huang, Yixin Liu, Yilong Yin, Vinod Namboodiri, Brian D. Davison, Jason H. Moore, Yong Chen},
-	journal = {Harvard Data Science Review},
-	number = {Special Issue X},
-	year = {2024},
-	month = {may 31},
-	note = {https://hdsr.mitpress.mit.edu/pub/xxxxxx},
-	publisher = {The MIT Press},
-	title = {Multi-Task Learning 1997-2024: Part II Regularization and Optimization},
-	volume = { },
+> @article{liu2025multi,
+  title={Multi-Task Learning 1997--2024: Part II Regularization and Optimization},
+  author={Liu, Xiaokang and Yu, Jun and Dai, Yutong and Shen, Yishan and Chen, Jianmin and Hu, Jie and Huang, Jin and Liu, Yixin and Yin, Yilong and Namboodiri, Vinod and others},
+  journal={Harvard Data Science Review},
+  year={2025},
+  publisher={The MIT Press}
 }
 
-> @article{Jun2024Multi,
-	author = {Jun Yu, Jin Huang, Kai Zhang, Yixin Liu, Ke Zhang, Yishan Shen, Dazheng Zhang, Rong Zhou, Xiaokang Liu, Yilong Yin, Vinod Namboodiri, Brian D. Davison, Jason H. Moore, Yong Chen},
-	journal = {Harvard Data Science Review},
-	number = {Special Issue X},
-	year = {2024},
-	month = {may 31},
-	note = {https://hdsr.mitpress.mit.edu/pub/xxxxxx},
-	publisher = {The MIT Press},
-	title = {Multi-Task Learning 1997-2024: Part III Applications},
-	volume = { },
+> @article{yu2025multi,
+  title={Multi-Task Learning 1997--2024: Part III Applications},
+  author={Yu, Jun and Huang, Jin and Zhang, Kai and Liu, Yixin and Zhang, Ke and Shen, Yishan and Zhang, Dazheng and ZHOU, RONG and Liu, Xiaokang and Yin, Yilong and others},
+  journal={Harvard Data Science Review},
+  year={2025},
+  publisher={The MIT Press}
 }
 <!-- <a name="architectures"></a>
 ## Architectures
