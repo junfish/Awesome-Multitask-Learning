@@ -7,9 +7,9 @@ This repository is grounded in our three-part survey published in Harvard Data S
 
 📘 [Part I: Fundamentals](https://hdsr.mitpress.mit.edu/pub/7fcc3jhv/release/1?readingCollection=3974b7e6) — introduces MTL from its origins, with formal definitions, taxonomies, and core motivations.
 
-📗 Part II: Regularization and Optimization — dives deep into the theoretical techniques enabling task-sharing, including loss functions, inductive biases, and training dynamics.
+📗 [Part II: Regularization and Optimization](https://hdsr.mitpress.mit.edu/pub/kuqgze5o/release/2?readingCollection=3974b7e6) — dives deep into the theoretical techniques enabling task-sharing, including loss functions, inductive biases, and training dynamics.
 
-📙 Part III: Applications — showcases real-world deployment of MTL methods, and how recent developments like pre-trained foundation models (PFMs) reshape the practical landscape of multi-task systems.
+📙 [Part III: Applications](https://hdsr.mitpress.mit.edu/pub/lgmkutcd/release/2?readingCollection=3974b7e6) — showcases real-world deployment of MTL methods, and how recent developments like pre-trained foundation models (PFMs) reshape the practical landscape of multi-task systems.
 
 Together, these papers span from 1997 to 2024, mapping the MTL journey across generations of machine learning paradigms. Each method in this repo is linked to its source paper and, when available, code implementations.
 
