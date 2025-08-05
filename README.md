@@ -5,7 +5,7 @@ Welcome to Awesome-Multitask-Learning, a curated repository of papers, code, and
 
 This repository is grounded in our three-part survey published in Harvard Data Science Review (HDSR):
 
-📘 Part I: Fundamentals — introduces MTL from its origins, with formal definitions, taxonomies, and core motivations.
+📘 [Part I: Fundamentals](https://hdsr.mitpress.mit.edu/pub/7fcc3jhv/release/1?readingCollection=3974b7e6) — introduces MTL from its origins, with formal definitions, taxonomies, and core motivations.
 
 📗 Part II: Regularization and Optimization — dives deep into the theoretical techniques enabling task-sharing, including loss functions, inductive biases, and training dynamics.
 
